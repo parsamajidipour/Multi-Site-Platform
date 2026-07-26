@@ -1,0 +1,256 @@
+services:
+  proxy:
+    image: ${NGINX_IMAGE:-public.ecr.aws/docker/library/nginx:1.27-alpine}
+    depends_on:
+      main_site:
+        condition: service_healthy
+      real_estate:
+        condition: service_healthy
+      finance:
+        condition: service_healthy
+      visa:
+        condition: service_healthy
+      admin-panel:
+        condition: service_healthy
+      cms-api:
+        condition: service_healthy
+    ports:
+      - "${DEV_HTTP_PORT:-8080}:80"
+      - "${DEV_HTTPS_PORT:-4443}:443"
+    volumes:
+      - ./infra/nginx/dev.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./infra/nginx/certs:/etc/nginx/certs:ro
+    networks:
+      - web
+
+  main_site:
+    image: ${NODE_IMAGE:-public.ecr.aws/docker/library/node:22-alpine}
+    working_dir: /app
+    command: sh -c "npm ci && npm run dev"
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+      WATCHPACK_POLLING: "true"
+      VITE_SITE_NAME: REZAEI GLOBAL LLC
+      VITE_SITE_DESCRIPTION: Corporate identity website for REZAEI GLOBAL LLC with group overview and central links to service platforms.
+      VITE_PUBLIC_URL: ${DEV_MAIN_SITE_PUBLIC_URL:-http://example.localhost:8080}
+      VITE_MAIN_SITE_URL: ${VITE_MAIN_SITE_URL:-http://example.localhost:8080}
+      VITE_REAL_ESTATE_URL: ${VITE_REAL_ESTATE_URL:-http://real-estate.example.localhost:8080}
+      VITE_FINANCE_URL: ${VITE_FINANCE_URL:-http://finance.example.localhost:8080}
+      VITE_VISA_URL: ${VITE_VISA_URL:-http://visa.example.localhost:8080}
+      VITE_CMS_API_URL: ${VITE_CMS_API_URL:-__SAME_ORIGIN__}
+      VITE_SITE_KIND: holding
+    volumes:
+      - ./apps/main-site/src:/app/src
+      - ./apps/main-site/public:/app/public
+      - ./apps/main-site/index.html:/app/index.html
+      - ./apps/main-site/package.json:/app/package.json:ro
+      - ./apps/main-site/package-lock.json:/app/package-lock.json:ro
+      - ./apps/main-site/vite.config.js:/app/vite.config.js:ro
+      - ./apps/main-site/tailwind.config.js:/app/tailwind.config.js:ro
+      - ./apps/main-site/postcss.config.js:/app/postcss.config.js:ro
+      - ./apps/main-site/tsconfig.json:/app/tsconfig.json:ro
+      - ./apps/main-site/tsconfig.node.json:/app/tsconfig.node.json:ro
+      - ./apps/main-site/components.json:/app/components.json:ro
+      - main_site_node_modules:/app/node_modules
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1:5173/ >/dev/null 2>&1"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 20s
+    networks:
+      - web
+
+  real_estate:
+    image: ${NODE_IMAGE:-public.ecr.aws/docker/library/node:22-alpine}
+    working_dir: /app
+    command: sh -c "npm ci && npm run dev"
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+      WATCHPACK_POLLING: "true"
+      VITE_SITE_NAME: Rezaei Real Estate, Construction & Building Materials
+      VITE_SITE_DESCRIPTION: Property listings, construction projects, development showcase, building materials, and industrial goods services.
+      VITE_PUBLIC_URL: ${DEV_REAL_ESTATE_PUBLIC_URL:-http://real-estate.example.localhost:8080}
+      VITE_MAIN_SITE_URL: ${VITE_MAIN_SITE_URL:-http://example.localhost:8080}
+      VITE_REAL_ESTATE_URL: ${VITE_REAL_ESTATE_URL:-http://real-estate.example.localhost:8080}
+      VITE_FINANCE_URL: ${VITE_FINANCE_URL:-http://finance.example.localhost:8080}
+      VITE_VISA_URL: ${VITE_VISA_URL:-http://visa.example.localhost:8080}
+      VITE_CMS_API_URL: ${VITE_CMS_API_URL:-__SAME_ORIGIN__}
+      VITE_SITE_KIND: real-estate
+    volumes:
+      - ./apps/real-estate/src:/app/src
+      - ./apps/real-estate/public:/app/public
+      - ./apps/real-estate/index.html:/app/index.html
+      - ./apps/real-estate/package.json:/app/package.json:ro
+      - ./apps/real-estate/package-lock.json:/app/package-lock.json:ro
+      - ./apps/real-estate/vite.config.js:/app/vite.config.js:ro
+      - ./apps/real-estate/tailwind.config.js:/app/tailwind.config.js:ro
+      - ./apps/real-estate/postcss.config.js:/app/postcss.config.js:ro
+      - ./apps/real-estate/tsconfig.json:/app/tsconfig.json:ro
+      - ./apps/real-estate/tsconfig.node.json:/app/tsconfig.node.json:ro
+      - ./apps/real-estate/components.json:/app/components.json:ro
+      - real_estate_node_modules:/app/node_modules
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1:5173/ >/dev/null 2>&1"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 20s
+    networks:
+      - web
+
+  finance:
+    image: ${NODE_IMAGE:-public.ecr.aws/docker/library/node:22-alpine}
+    working_dir: /app
+    command: sh -c "npm ci && npm run dev"
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+      WATCHPACK_POLLING: "true"
+      VITE_SITE_NAME: Rezaei Import, Export & Currency Transfer
+      VITE_SITE_DESCRIPTION: Import, export, international trade, shipment coordination, currency transfer, and foreign exchange services.
+      VITE_PUBLIC_URL: ${DEV_FINANCE_PUBLIC_URL:-http://finance.example.localhost:8080}
+      VITE_MAIN_SITE_URL: ${VITE_MAIN_SITE_URL:-http://example.localhost:8080}
+      VITE_REAL_ESTATE_URL: ${VITE_REAL_ESTATE_URL:-http://real-estate.example.localhost:8080}
+      VITE_FINANCE_URL: ${VITE_FINANCE_URL:-http://finance.example.localhost:8080}
+      VITE_VISA_URL: ${VITE_VISA_URL:-http://visa.example.localhost:8080}
+      VITE_CMS_API_URL: ${VITE_CMS_API_URL:-__SAME_ORIGIN__}
+      VITE_SITE_KIND: trade
+    volumes:
+      - ./apps/finance/src:/app/src
+      - ./apps/finance/public:/app/public
+      - ./apps/finance/index.html:/app/index.html
+      - ./apps/finance/package.json:/app/package.json:ro
+      - ./apps/finance/package-lock.json:/app/package-lock.json:ro
+      - ./apps/finance/vite.config.js:/app/vite.config.js:ro
+      - ./apps/finance/tailwind.config.js:/app/tailwind.config.js:ro
+      - ./apps/finance/postcss.config.js:/app/postcss.config.js:ro
+      - ./apps/finance/tsconfig.json:/app/tsconfig.json:ro
+      - ./apps/finance/tsconfig.node.json:/app/tsconfig.node.json:ro
+      - ./apps/finance/components.json:/app/components.json:ro
+      - finance_node_modules:/app/node_modules
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1:5173/ >/dev/null 2>&1"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 20s
+    networks:
+      - web
+
+  visa:
+    image: ${NODE_IMAGE:-public.ecr.aws/docker/library/node:22-alpine}
+    working_dir: /app
+    command: sh -c "npm ci && npm run dev"
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+      WATCHPACK_POLLING: "true"
+      VITE_SITE_NAME: Rezaei Residency, Visa & Translation Services
+      VITE_SITE_DESCRIPTION: Residency processing, visa solutions, corporate setup consultancy, document attestation, legalization, and translation services.
+      VITE_PUBLIC_URL: ${DEV_VISA_PUBLIC_URL:-http://visa.example.localhost:8080}
+      VITE_MAIN_SITE_URL: ${VITE_MAIN_SITE_URL:-http://example.localhost:8080}
+      VITE_REAL_ESTATE_URL: ${VITE_REAL_ESTATE_URL:-http://real-estate.example.localhost:8080}
+      VITE_FINANCE_URL: ${VITE_FINANCE_URL:-http://finance.example.localhost:8080}
+      VITE_VISA_URL: ${VITE_VISA_URL:-http://visa.example.localhost:8080}
+      VITE_CMS_API_URL: ${VITE_CMS_API_URL:-__SAME_ORIGIN__}
+      VITE_SITE_KIND: residency
+    volumes:
+      - ./apps/visa/src:/app/src
+      - ./apps/visa/public:/app/public
+      - ./apps/visa/index.html:/app/index.html
+      - ./apps/visa/package.json:/app/package.json:ro
+      - ./apps/visa/package-lock.json:/app/package-lock.json:ro
+      - ./apps/visa/vite.config.js:/app/vite.config.js:ro
+      - ./apps/visa/tailwind.config.js:/app/tailwind.config.js:ro
+      - ./apps/visa/postcss.config.js:/app/postcss.config.js:ro
+      - ./apps/visa/tsconfig.json:/app/tsconfig.json:ro
+      - ./apps/visa/tsconfig.node.json:/app/tsconfig.node.json:ro
+      - ./apps/visa/components.json:/app/components.json:ro
+      - visa_node_modules:/app/node_modules
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1:5173/ >/dev/null 2>&1"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 20s
+    networks:
+      - web
+
+  admin-panel:
+    image: ${NODE_IMAGE:-public.ecr.aws/docker/library/node:22-alpine}
+    working_dir: /app
+    command: sh -c "npm ci && npm run dev"
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
+      WATCHPACK_POLLING: "true"
+      VITE_CMS_API_URL: ${VITE_CMS_API_URL:-__SAME_ORIGIN__}
+    volumes:
+      - ./apps/admin-panel:/app
+      - admin_panel_node_modules:/app/node_modules
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1:5173/ >/dev/null 2>&1"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 20s
+    networks:
+      - web
+
+  cms-db:
+    image: ${POSTGRES_IMAGE:-public.ecr.aws/docker/library/postgres:16-alpine}
+    environment:
+      POSTGRES_DB: ${CMS_POSTGRES_DB:-rezaei_cms}
+      POSTGRES_USER: ${CMS_POSTGRES_USER:-rezaei_cms}
+      POSTGRES_PASSWORD: ${CMS_POSTGRES_PASSWORD:-rezaei_cms_dev_password}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    volumes:
+      - cms_db_data:/var/lib/postgresql/data
+    networks:
+      - web
+
+  cms-api:
+    build:
+      context: ./services/cms-api
+    depends_on:
+      cms-db:
+        condition: service_healthy
+    command: >
+      sh -c "python manage.py migrate --noinput &&
+      python manage.py seed_cms &&
+      python manage.py shell -c \"import os; from django.contrib.auth import get_user_model; User=get_user_model(); username=os.environ.get('CMS_SUPERUSER_USERNAME', 'dev-admin'); email=os.environ.get('CMS_SUPERUSER_EMAIL', 'dev-admin@example.localhost'); password=os.environ.get('CMS_SUPERUSER_PASSWORD', 'replace-with-dev-password'); user, _ = User.objects.get_or_create(username=username, defaults={'email': email}); user.email=email; user.is_staff=True; user.is_superuser=True; user.set_password(password); user.save(); print(f'Dev superuser ready: {username}')\" &&
+      python manage.py runserver 0.0.0.0:8000"
+    environment:
+      DATABASE_URL: ${DATABASE_URL:-postgres://rezaei_cms:rezaei_cms_dev_password@cms-db:5432/rezaei_cms}
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY:-dev-only-cms-secret-key}
+      DJANGO_DEBUG: ${DJANGO_DEBUG:-true}
+      DJANGO_ALLOWED_HOSTS: ${DJANGO_ALLOWED_HOSTS:-cms.example.localhost,cms-api,localhost,127.0.0.1}
+      CORS_ALLOWED_ORIGINS: ${CORS_ALLOWED_ORIGINS:-https://admin.example.localhost,http://admin.example.localhost:8080,http://example.localhost:8080,https://example.localhost,http://real-estate.example.localhost:8080,https://real-estate.example.localhost,http://finance.example.localhost:8080,https://finance.example.localhost,http://visa.example.localhost:8080,https://visa.example.localhost}
+      CSRF_TRUSTED_ORIGINS: ${CSRF_TRUSTED_ORIGINS:-https://cms.example.localhost,https://admin.example.localhost,http://cms.example.localhost:8080,http://admin.example.localhost:8080}
+      CMS_SUPERUSER_USERNAME: ${CMS_SUPERUSER_USERNAME:-dev-admin}
+      CMS_SUPERUSER_EMAIL: ${CMS_SUPERUSER_EMAIL:-dev-admin@example.localhost}
+      CMS_SUPERUSER_PASSWORD: ${CMS_SUPERUSER_PASSWORD:-replace-with-dev-password}
+    volumes:
+      - ./services/cms-api:/app
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/public/sites/main-site/homepage/', timeout=3).read()\""]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 20s
+    networks:
+      - web
+
+networks:
+  web:
+
+volumes:
+  main_site_node_modules:
+  real_estate_node_modules:
+  finance_node_modules:
+  visa_node_modules:
+  admin_panel_node_modules:
+  cms_db_data:
+ 

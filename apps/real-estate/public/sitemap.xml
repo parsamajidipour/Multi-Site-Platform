@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://real-estate.example.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://real-estate.example.com/" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://real-estate.example.com/?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://real-estate.example.com/?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://real-estate.example.com/?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://real-estate.example.com/" />
+    <lastmod>2026-06-12</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://real-estate.example.com/properties</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://real-estate.example.com/properties" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://real-estate.example.com/properties?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://real-estate.example.com/properties?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://real-estate.example.com/properties?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://real-estate.example.com/properties" />
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://real-estate.example.com/projects</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://real-estate.example.com/projects" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://real-estate.example.com/projects?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://real-estate.example.com/projects?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://real-estate.example.com/projects?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://real-estate.example.com/projects" />
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://real-estate.example.com/materials</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://real-estate.example.com/materials" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://real-estate.example.com/materials?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://real-estate.example.com/materials?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://real-estate.example.com/materials?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://real-estate.example.com/materials" />
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://real-estate.example.com/quotation</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://real-estate.example.com/quotation" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://real-estate.example.com/quotation?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://real-estate.example.com/quotation?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://real-estate.example.com/quotation?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://real-estate.example.com/quotation" />
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://real-estate.example.com/insights</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://real-estate.example.com/insights" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://real-estate.example.com/insights?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://real-estate.example.com/insights?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://real-estate.example.com/insights?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://real-estate.example.com/insights" />
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://real-estate.example.com/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://real-estate.example.com/contact" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://real-estate.example.com/contact?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://real-estate.example.com/contact?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://real-estate.example.com/contact?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://real-estate.example.com/contact" />
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+</urlset>

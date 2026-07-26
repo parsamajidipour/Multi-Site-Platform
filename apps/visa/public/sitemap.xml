@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://visa.example.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visa.example.com/" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://visa.example.com/?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visa.example.com/?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visa.example.com/?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visa.example.com/" />
+    <lastmod>2026-06-12</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://visa.example.com/residency-visa</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visa.example.com/residency-visa" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://visa.example.com/residency-visa?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visa.example.com/residency-visa?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visa.example.com/residency-visa?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visa.example.com/residency-visa" />
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://visa.example.com/corporate-setup</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visa.example.com/corporate-setup" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://visa.example.com/corporate-setup?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visa.example.com/corporate-setup?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visa.example.com/corporate-setup?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visa.example.com/corporate-setup" />
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://visa.example.com/translation</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visa.example.com/translation" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://visa.example.com/translation?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visa.example.com/translation?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visa.example.com/translation?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visa.example.com/translation" />
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://visa.example.com/legalization</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visa.example.com/legalization" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://visa.example.com/legalization?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visa.example.com/legalization?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visa.example.com/legalization?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visa.example.com/legalization" />
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://visa.example.com/attestation</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visa.example.com/attestation" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://visa.example.com/attestation?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visa.example.com/attestation?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visa.example.com/attestation?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visa.example.com/attestation" />
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://visa.example.com/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visa.example.com/faq" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://visa.example.com/faq?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visa.example.com/faq?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visa.example.com/faq?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visa.example.com/faq" />
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://visa.example.com/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visa.example.com/contact" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://visa.example.com/contact?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://visa.example.com/contact?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://visa.example.com/contact?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visa.example.com/contact" />
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+</urlset>

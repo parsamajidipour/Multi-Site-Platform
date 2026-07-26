@@ -1,0 +1,199 @@
+services:
+  proxy:
+    image: ${NGINX_IMAGE:-public.ecr.aws/docker/library/nginx:1.27-alpine}
+    restart: unless-stopped
+    depends_on:
+      main_site_build:
+        condition: service_completed_successfully
+      real_estate_build:
+        condition: service_completed_successfully
+      finance_build:
+        condition: service_completed_successfully
+      visa_build:
+        condition: service_completed_successfully
+      admin-panel:
+        condition: service_completed_successfully
+      cms-api:
+        condition: service_started
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./infra/nginx/prod.conf:/etc/nginx/conf.d/default.conf:ro
+      # Certificates are issued/renewed on the host with certbot standalone,
+      # not from inside this nginx container.
+      - /etc/letsencrypt:/etc/letsencrypt:ro
+      - main_site_static:/usr/share/nginx/main-site:ro
+      - real_estate_static:/usr/share/nginx/real-estate:ro
+      - finance_static:/usr/share/nginx/finance:ro
+      - visa_static:/usr/share/nginx/visa:ro
+      - admin_panel_static:/usr/share/nginx/admin-panel:ro
+      - cms_static:/usr/share/nginx/cms-static:ro
+      - cms_media:/usr/share/nginx/cms-media:ro
+    networks:
+      - web
+
+  main_site_build:
+    image: ${NODE_IMAGE:-public.ecr.aws/docker/library/node:22-alpine}
+    working_dir: /work
+    command: sh -c "rm -rf /work/* /work/.[!.]* /work/..?* && cp -a /src/. /work/ && npm ci && npm run build && rm -rf /out/* && cp -r /work/dist/. /out/"
+    environment:
+      VITE_SITE_NAME: REZAEI GLOBAL LLC
+      VITE_SITE_DESCRIPTION: Corporate identity website for REZAEI GLOBAL LLC with group overview and central links to service platforms.
+      VITE_PUBLIC_URL: ${MAIN_SITE_PUBLIC_URL:-https://example.com}
+      VITE_MAIN_SITE_URL: ${MAIN_SITE_PUBLIC_URL:-https://example.com}
+      VITE_REAL_ESTATE_URL: ${REAL_ESTATE_PUBLIC_URL:-https://real-estate.example.com}
+      VITE_FINANCE_URL: ${FINANCE_PUBLIC_URL:-https://finance.example.com}
+      VITE_VISA_URL: ${VISA_PUBLIC_URL:-https://visa.example.com}
+      VITE_CMS_API_URL: ${FRONTEND_CMS_API_URL:-__SAME_ORIGIN__}
+      VITE_SITE_KIND: holding
+    volumes:
+      - ./apps/main-site:/src:ro
+      - main_site_work:/work
+      - main_site_static:/out
+    networks:
+      - web
+
+  real_estate_build:
+    image: ${NODE_IMAGE:-public.ecr.aws/docker/library/node:22-alpine}
+    working_dir: /work
+    command: sh -c "rm -rf /work/* /work/.[!.]* /work/..?* && cp -a /src/. /work/ && npm ci && npm run build && rm -rf /out/* && cp -r /work/dist/. /out/"
+    environment:
+      VITE_SITE_NAME: Rezaei Real Estate, Construction & Building Materials
+      VITE_SITE_DESCRIPTION: Property listings, construction projects, development showcase, building materials, and industrial goods services.
+      VITE_PUBLIC_URL: ${REAL_ESTATE_PUBLIC_URL:-https://real-estate.example.com}
+      VITE_MAIN_SITE_URL: ${MAIN_SITE_PUBLIC_URL:-https://example.com}
+      VITE_REAL_ESTATE_URL: ${REAL_ESTATE_PUBLIC_URL:-https://real-estate.example.com}
+      VITE_FINANCE_URL: ${FINANCE_PUBLIC_URL:-https://finance.example.com}
+      VITE_VISA_URL: ${VISA_PUBLIC_URL:-https://visa.example.com}
+      VITE_CMS_API_URL: ${FRONTEND_CMS_API_URL:-__SAME_ORIGIN__}
+      VITE_SITE_KIND: real-estate
+    volumes:
+      - ./apps/real-estate:/src:ro
+      - real_estate_work:/work
+      - real_estate_static:/out
+    networks:
+      - web
+
+  finance_build:
+    image: ${NODE_IMAGE:-public.ecr.aws/docker/library/node:22-alpine}
+    working_dir: /work
+    command: sh -c "rm -rf /work/* /work/.[!.]* /work/..?* && cp -a /src/. /work/ && npm ci && npm run build && rm -rf /out/* && cp -r /work/dist/. /out/"
+    environment:
+      VITE_SITE_NAME: Rezaei Import, Export & Currency Transfer
+      VITE_SITE_DESCRIPTION: Import, export, international trade, shipment coordination, currency transfer, and foreign exchange services.
+      VITE_PUBLIC_URL: ${FINANCE_PUBLIC_URL:-https://finance.example.com}
+      VITE_MAIN_SITE_URL: ${MAIN_SITE_PUBLIC_URL:-https://example.com}
+      VITE_REAL_ESTATE_URL: ${REAL_ESTATE_PUBLIC_URL:-https://real-estate.example.com}
+      VITE_FINANCE_URL: ${FINANCE_PUBLIC_URL:-https://finance.example.com}
+      VITE_VISA_URL: ${VISA_PUBLIC_URL:-https://visa.example.com}
+      VITE_CMS_API_URL: ${FRONTEND_CMS_API_URL:-__SAME_ORIGIN__}
+      VITE_SITE_KIND: trade
+    volumes:
+      - ./apps/finance:/src:ro
+      - finance_work:/work
+      - finance_static:/out
+    networks:
+      - web
+
+  visa_build:
+    image: ${NODE_IMAGE:-public.ecr.aws/docker/library/node:22-alpine}
+    working_dir: /work
+    command: sh -c "rm -rf /work/* /work/.[!.]* /work/..?* && cp -a /src/. /work/ && npm ci && npm run build && rm -rf /out/* && cp -r /work/dist/. /out/"
+    environment:
+      VITE_SITE_NAME: Rezaei Residency, Visa & Translation Services
+      VITE_SITE_DESCRIPTION: Residency processing, visa solutions, corporate setup consultancy, document attestation, legalization, and translation services.
+      VITE_PUBLIC_URL: ${VISA_PUBLIC_URL:-https://visa.example.com}
+      VITE_MAIN_SITE_URL: ${MAIN_SITE_PUBLIC_URL:-https://example.com}
+      VITE_REAL_ESTATE_URL: ${REAL_ESTATE_PUBLIC_URL:-https://real-estate.example.com}
+      VITE_FINANCE_URL: ${FINANCE_PUBLIC_URL:-https://finance.example.com}
+      VITE_VISA_URL: ${VISA_PUBLIC_URL:-https://visa.example.com}
+      VITE_CMS_API_URL: ${FRONTEND_CMS_API_URL:-__SAME_ORIGIN__}
+      VITE_SITE_KIND: residency
+    volumes:
+      - ./apps/visa:/src:ro
+      - visa_work:/work
+      - visa_static:/out
+    networks:
+      - web
+
+  admin-panel:
+    image: ${NODE_IMAGE:-public.ecr.aws/docker/library/node:22-alpine}
+    working_dir: /work
+    command: sh -c "rm -rf /work/* /work/.[!.]* /work/..?* && cp -a /src/. /work/ && npm ci && npm run build && rm -rf /out/* && cp -r /work/dist/. /out/"
+    environment:
+      VITE_MAIN_SITE_URL: ${MAIN_SITE_PUBLIC_URL:-https://example.com}
+      VITE_REAL_ESTATE_URL: ${REAL_ESTATE_PUBLIC_URL:-https://real-estate.example.com}
+      VITE_FINANCE_URL: ${FINANCE_PUBLIC_URL:-https://finance.example.com}
+      VITE_VISA_URL: ${VISA_PUBLIC_URL:-https://visa.example.com}
+      VITE_CMS_API_URL: ${FRONTEND_CMS_API_URL:-__SAME_ORIGIN__}
+    volumes:
+      - ./apps/admin-panel:/src:ro
+      - admin_panel_work:/work
+      - admin_panel_static:/out
+    networks:
+      - web
+
+  cms-db:
+    image: ${POSTGRES_IMAGE:-public.ecr.aws/docker/library/postgres:16-alpine}
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${CMS_POSTGRES_DB:-rezaei_cms}
+      POSTGRES_USER: ${CMS_POSTGRES_USER:-rezaei_cms}
+      POSTGRES_PASSWORD: ${CMS_POSTGRES_PASSWORD:?Set CMS_POSTGRES_PASSWORD for production}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    volumes:
+      - cms_db_data:/var/lib/postgresql/data
+    networks:
+      - web
+
+  cms-api:
+    build:
+      context: ./services/cms-api
+    restart: unless-stopped
+    depends_on:
+      cms-db:
+        condition: service_healthy
+    command: >
+      sh -c "python manage.py migrate --noinput &&
+      python manage.py ensure_superuser &&
+      python manage.py seed_cms_if_empty &&
+      python manage.py collectstatic --noinput &&
+      gunicorn config.wsgi:application --bind 0.0.0.0:8000 --workers ${CMS_GUNICORN_WORKERS:-3}"
+    environment:
+      DATABASE_URL: ${DATABASE_URL:?Set DATABASE_URL for production}
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY:?Set DJANGO_SECRET_KEY for production}
+      DJANGO_DEBUG: ${DJANGO_DEBUG:-false}
+      DJANGO_ALLOWED_HOSTS: ${DJANGO_ALLOWED_HOSTS:-cms.example.com,admin.example.com,example.com,real-estate.example.com,finance.example.com,visa.example.com,cms-api}
+      CORS_ALLOWED_ORIGINS: ${CORS_ALLOWED_ORIGINS:-https://admin.example.com,https://example.com,https://real-estate.example.com,https://finance.example.com,https://visa.example.com}
+      CSRF_TRUSTED_ORIGINS: ${CSRF_TRUSTED_ORIGINS:-https://cms.example.com,https://admin.example.com}
+      CMS_SUPERUSER_USERNAME: ${CMS_SUPERUSER_USERNAME:-}
+      CMS_SUPERUSER_EMAIL: ${CMS_SUPERUSER_EMAIL:-}
+      CMS_SUPERUSER_PASSWORD: ${CMS_SUPERUSER_PASSWORD:-}
+    volumes:
+      - cms_static:/app/staticfiles
+      - cms_media:/app/media
+    networks:
+      - web
+
+networks:
+  web:
+
+volumes:
+  main_site_work:
+  main_site_static:
+  real_estate_work:
+  real_estate_static:
+  finance_work:
+  finance_static:
+  visa_work:
+  visa_static:
+  admin_panel_work:
+  admin_panel_static:
+  cms_db_data:
+  cms_static:
+  cms_media:

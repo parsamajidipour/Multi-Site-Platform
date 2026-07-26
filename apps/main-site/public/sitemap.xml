@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://example.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://example.com/?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/" />
+    <lastmod>2026-06-12</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://example.com/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/about" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://example.com/about?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/about?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/about?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/about" />
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/how-we-work</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/how-we-work" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://example.com/how-we-work?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/how-we-work?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/how-we-work?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/how-we-work" />
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/governance</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/governance" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://example.com/governance?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/governance?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/governance?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/governance" />
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/team</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/team" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://example.com/team?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/team?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/team?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/team" />
+    <lastmod>2026-06-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://example.com/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/contact" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://example.com/contact?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/contact?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/contact?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/contact" />
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/faq" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://example.com/faq?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/faq?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/faq?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/faq" />
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://example.com/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://example.com/privacy?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/privacy?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/privacy?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/privacy" />
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://example.com/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/terms" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://example.com/terms?locale=fa" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/terms?locale=ar" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://example.com/terms?locale=tr" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/terms" />
+    <lastmod>2026-06-12</lastmod>
+    <priority>0.3</priority>
+  </url>
+</urlset>

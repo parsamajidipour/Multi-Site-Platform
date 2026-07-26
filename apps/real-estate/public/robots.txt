@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://real-estate.example.com/sitemap.xml

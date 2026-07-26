@@ -1,0 +1,32 @@
+services:
+  cms_db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: ${CMS_POSTGRES_DB:-rezaei_cms}
+      POSTGRES_USER: ${CMS_POSTGRES_USER:-rezaei_cms}
+      POSTGRES_PASSWORD: ${CMS_POSTGRES_PASSWORD:-change-me}
+    volumes:
+      - cms_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  cms_api:
+    build: .
+    depends_on:
+      cms_db:
+        condition: service_healthy
+    environment:
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY:-change-me-in-production}
+      DJANGO_DEBUG: ${DJANGO_DEBUG:-false}
+      DJANGO_ALLOWED_HOSTS: ${DJANGO_ALLOWED_HOSTS:-localhost,127.0.0.1,cms-api}
+      CORS_ALLOWED_ORIGINS: ${CORS_ALLOWED_ORIGINS:-http://localhost:5173,http://localhost:5174,http://localhost:5175,http://localhost:5176}
+      DATABASE_URL: postgres://${CMS_POSTGRES_USER:-rezaei_cms}:${CMS_POSTGRES_PASSWORD:-change-me}@cms_db:5432/${CMS_POSTGRES_DB:-rezaei_cms}
+    ports:
+      - "${CMS_API_PORT:-8000}:8000"
+    command: sh -c "python manage.py migrate && gunicorn config.wsgi:application --bind 0.0.0.0:8000"
+
+volumes:
+  cms_db_data:

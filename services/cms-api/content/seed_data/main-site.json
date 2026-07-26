@@ -1,0 +1,4341 @@
+{
+  "site": {
+    "key": "main-site",
+    "name": "REZAEI GLOBAL LLC",
+    "domain": "example.com",
+    "default_locale": "en",
+    "is_active": true,
+    "settings": {
+      "contact_email": "info@rezaeiglobal.com",
+      "contact_phone": "+968 4 000 0000",
+      "contact_address": "Muscat, Sultanate of Oman",
+      "whatsapp": "+968 50 000 0000",
+      "footer_text": "REZAEI GLOBAL LLC helps clients reach the right team across property, trade, residency, and document services in Oman and the wider region.",
+      "settings": {
+        "brand_logo_wide": "/brand/rezaei-global-logo-wide-web.png",
+        "brand_logo_stacked": "/brand/rezaei-global-logo-stacked-web.png",
+        "favicon_url": "/favicon.png",
+        "brand_color": "#00357f",
+        "accent_color": "#f97316",
+        "hero_video": "/media/hero/main-handshake-hero-20260701.mp4",
+        "hero_poster": "/brand/rezaei-global-logo-stacked-web.png",
+        "area_served": [
+          "Sultanate of Oman",
+          "Sultanate of Oman",
+          "Turkey",
+          "Iran",
+          "Arabic-speaking markets"
+        ],
+        "group_site_urls": {
+          "mainSite": "https://example.com",
+          "realEstate": "https://real-estate.example.com",
+          "finance": "https://finance.example.com",
+          "visa": "https://visa.example.com"
+        },
+        "group_links": [
+          {
+            "label": "Real Estate",
+            "href": "https://real-estate.example.com"
+          },
+          {
+            "label": "Finance",
+            "href": "https://finance.example.com"
+          },
+          {
+            "label": "Visa",
+            "href": "https://visa.example.com"
+          }
+        ],
+        "footer_text_by_locale": {
+          "en": "REZAEI GLOBAL LLC helps clients reach the right team across property, trade, residency, and document services in Oman and the wider region.",
+          "tr": "REZAEI GLOBAL LLC; emlak, ticaret, ikamet ve belge işleri için müşterilerini Umman ve çevre pazarlarda doğru ekibe ulaştırır.",
+          "fa": "REZAEI GLOBAL LLC مشتریان را در حوزه‌های املاک، تجارت، اقامت و خدمات اسنادی به تیم مناسب در عُمان و بازارهای پیرامون متصل می‌کند.",
+          "ar": "تساعد REZAEI GLOBAL LLC العملاء على الوصول إلى الفريق المناسب في العقارات والتجارة والإقامة والمستندات داخل سلطنة عُمان والأسواق المجاورة."
+        },
+        "ui_strings": {
+          "inquiry_success": {
+            "en": "Thanks. Your message reached our team and we will reply shortly.",
+            "tr": "Teşekkürler. Mesajınız ekibimize ulaştı, kısa sürede yanıt vereceğiz.",
+            "fa": "ممنون. پیام شما به دست تیم ما رسید و به‌زودی پاسخ می‌دهیم.",
+            "ar": "شكرًا لك. وصلت رسالتك إلى فريقنا وسنرد قريبًا."
+          },
+          "inquiry_error": {
+            "en": "We could not send that message. Please try again in a moment.",
+            "tr": "Mesaj gönderilemedi. Lütfen birazdan tekrar deneyin.",
+            "fa": "ارسال پیام انجام نشد. لطفاً کمی بعد دوباره تلاش کنید.",
+            "ar": "تعذر إرسال الرسالة. يرجى المحاولة بعد قليل."
+          },
+          "form_full_name": {
+            "en": "Full name",
+            "tr": "Ad Soyad",
+            "fa": "نام کامل",
+            "ar": "الاسم الكامل"
+          },
+          "form_full_name_placeholder": {
+            "en": "Your full name",
+            "tr": "Adınız ve soyadınız",
+            "fa": "نام کامل شما",
+            "ar": "اسمك الكامل"
+          },
+          "form_email": {
+            "en": "Email",
+            "tr": "E-posta",
+            "fa": "ایمیل",
+            "ar": "البريد الإلكتروني"
+          },
+          "form_email_placeholder": {
+            "en": "your@email.com",
+            "tr": "eposta@ornek.com",
+            "fa": "you@example.com",
+            "ar": "you@example.com"
+          },
+          "form_phone": {
+            "en": "Phone / WhatsApp",
+            "tr": "Telefon / WhatsApp",
+            "fa": "تلفن / واتساپ",
+            "ar": "الهاتف / واتساب"
+          },
+          "form_phone_placeholder": {
+            "en": "+968...",
+            "tr": "+968...",
+            "fa": "+968...",
+            "ar": "+968..."
+          },
+          "form_service_interest": {
+            "en": "Service interest",
+            "tr": "Hizmet Alanı",
+            "fa": "حوزه خدمات",
+            "ar": "مجال الخدمة"
+          },
+          "form_select_service": {
+            "en": "Select a service area...",
+            "tr": "Bir hizmet alanı seçin...",
+            "fa": "یک حوزه خدمات انتخاب کنید...",
+            "ar": "اختر مجال الخدمة..."
+          },
+          "form_country": {
+            "en": "Country",
+            "tr": "Ülke",
+            "fa": "کشور",
+            "ar": "الدولة"
+          },
+          "form_country_placeholder": {
+            "en": "Your country",
+            "tr": "Ülkeniz",
+            "fa": "کشور شما",
+            "ar": "دولتك"
+          },
+          "form_message": {
+            "en": "Message",
+            "tr": "Mesaj",
+            "fa": "پیام",
+            "ar": "الرسالة"
+          },
+          "form_message_placeholder": {
+            "en": "Describe the request, timeline, country, and preferred follow-up method.",
+            "tr": "Talebi, zamanlamayı, ülkeyi ve tercih edilen iletişim yolunu açıklayın.",
+            "fa": "درخواست، زمان‌بندی، کشور و روش تماس ترجیحی را توضیح دهید.",
+            "ar": "اشرح الطلب والجدول الزمني والدولة وطريقة المتابعة المفضلة."
+          },
+          "form_send": {
+            "en": "Send message",
+            "tr": "Mesaj gönder",
+            "fa": "ارسال پیام",
+            "ar": "إرسال الرسالة"
+          },
+          "form_visit_unit": {
+            "en": "Visit unit",
+            "tr": "Birimi ziyaret et",
+            "fa": "مشاهده واحد",
+            "ar": "زيارة الوحدة"
+          },
+          "form_corporate_group": {
+            "en": "Corporate Group",
+            "tr": "Kurumsal Grup",
+            "fa": "گروه شرکتی",
+            "ar": "مجموعة شركات"
+          },
+          "footer_tagline": {
+            "en": "One starting point for our property, trade, residency, and document teams.",
+            "tr": "Emlak, ticaret, ikamet ve belge ekiplerimize tek bir başlangıç noktası.",
+            "fa": "یک نقطه شروع برای تماس با تیم‌های املاک، تجارت، اقامت و اسناد ما.",
+            "ar": "نقطة بداية واحدة للتواصل مع فرقنا في العقارات والتجارة والإقامة والمستندات."
+          },
+          "nav_home": {
+            "en": "Home",
+            "tr": "Ana Sayfa",
+            "fa": "خانه",
+            "ar": "الرئيسية"
+          },
+          "nav_back_home": {
+            "en": "Back to home",
+            "tr": "Ana sayfaya dön",
+            "fa": "بازگشت به صفحه اصلی",
+            "ar": "العودة إلى الرئيسية"
+          },
+          "cta_contact": {
+            "en": "Contact us",
+            "tr": "İletişime geç",
+            "fa": "تماس با ما",
+            "ar": "تواصل معنا"
+          },
+          "cta_visit_website": {
+            "en": "Visit website",
+            "tr": "Web sitesine git",
+            "fa": "مشاهده وب سایت",
+            "ar": "زيارة الموقع"
+          },
+          "form_required": {
+            "en": "Please add your name and a short message.",
+            "tr": "Lütfen adınızı ve kısa bir mesajınızı yazın.",
+            "fa": "لطفاً نام و یک پیام کوتاه وارد کنید.",
+            "ar": "يرجى إدخال اسمك ورسالة قصيرة."
+          },
+          "form_real_estate": {
+            "en": "Real Estate",
+            "tr": "Gayrimenkul",
+            "fa": "املاک و مستغلات",
+            "ar": "العقارات"
+          },
+          "form_finance_trade": {
+            "en": "Finance & Trade",
+            "tr": "Finans ve Ticaret",
+            "fa": "مالی و تجارت",
+            "ar": "التمويل والتجارة"
+          },
+          "form_residency": {
+            "en": "Residency, Visa & Translation",
+            "tr": "İkamet, Vize ve Tercüme",
+            "fa": "اقامت، ویزا و ترجمه",
+            "ar": "الإقامة والتأشيرة والترجمة"
+          },
+          "form_general": {
+            "en": "General inquiry",
+            "tr": "Genel Talep",
+            "fa": "درخواست عمومی",
+            "ar": "استفسار عام"
+          },
+          "metric_platforms": {
+            "en": "Service lines",
+            "tr": "Hizmet alanları",
+            "fa": "حوزه‌های خدمت",
+            "ar": "مجالات الخدمة"
+          },
+          "metric_markets": {
+            "en": "Regional markets",
+            "tr": "Bölgesel pazarlar",
+            "fa": "بازارهای منطقه‌ای",
+            "ar": "الأسواق الإقليمية"
+          },
+          "metric_entry": {
+            "en": "One contact point",
+            "tr": "Tek iletişim noktası",
+            "fa": "یک نقطه تماس",
+            "ar": "نقطة تواصل واحدة"
+          }
+        }
+      }
+    },
+    "navigation": [
+      {
+        "label": "الرئيسية",
+        "href": "/",
+        "section_key": "home",
+        "locale": "ar",
+        "order": 0
+      },
+      {
+        "label": "الشركة",
+        "href": "/about",
+        "section_key": "company",
+        "locale": "ar",
+        "order": 1
+      },
+      {
+        "label": "وحدات الأعمال",
+        "href": "/#business-units",
+        "section_key": "business-units",
+        "locale": "ar",
+        "order": 2
+      },
+      {
+        "label": "هيكل المجموعة",
+        "href": "/#group-structure",
+        "section_key": "group-structure",
+        "locale": "ar",
+        "order": 3
+      },
+      {
+        "label": "الحوكمة",
+        "href": "/governance",
+        "section_key": "governance",
+        "locale": "ar",
+        "order": 4
+      },
+      {
+        "label": "الفريق",
+        "href": "/team",
+        "section_key": "team",
+        "locale": "ar",
+        "order": 5
+      },
+      {
+        "label": "تواصل",
+        "href": "/contact",
+        "section_key": "contact",
+        "locale": "ar",
+        "order": 6
+      },
+      {
+        "label": "Home",
+        "href": "/",
+        "section_key": "home",
+        "locale": "en",
+        "order": 0
+      },
+      {
+        "label": "Company",
+        "href": "/about",
+        "section_key": "company",
+        "locale": "en",
+        "order": 1
+      },
+      {
+        "label": "Business Units",
+        "href": "/#business-units",
+        "section_key": "business-units",
+        "locale": "en",
+        "order": 2
+      },
+      {
+        "label": "Group Structure",
+        "href": "/#group-structure",
+        "section_key": "group-structure",
+        "locale": "en",
+        "order": 3
+      },
+      {
+        "label": "Governance",
+        "href": "/governance",
+        "section_key": "governance",
+        "locale": "en",
+        "order": 4
+      },
+      {
+        "label": "Team",
+        "href": "/team",
+        "section_key": "team",
+        "locale": "en",
+        "order": 5
+      },
+      {
+        "label": "Contact",
+        "href": "/contact",
+        "section_key": "contact",
+        "locale": "en",
+        "order": 6
+      },
+      {
+        "label": "صفحه اصلی",
+        "href": "/",
+        "section_key": "home",
+        "locale": "fa",
+        "order": 0
+      },
+      {
+        "label": "شرکت",
+        "href": "/about",
+        "section_key": "company",
+        "locale": "fa",
+        "order": 1
+      },
+      {
+        "label": "واحدهای تجاری",
+        "href": "/#business-units",
+        "section_key": "business-units",
+        "locale": "fa",
+        "order": 2
+      },
+      {
+        "label": "ساختار گروه",
+        "href": "/#group-structure",
+        "section_key": "group-structure",
+        "locale": "fa",
+        "order": 3
+      },
+      {
+        "label": "حاکمیت",
+        "href": "/governance",
+        "section_key": "governance",
+        "locale": "fa",
+        "order": 4
+      },
+      {
+        "label": "تیم",
+        "href": "/team",
+        "section_key": "team",
+        "locale": "fa",
+        "order": 5
+      },
+      {
+        "label": "تماس",
+        "href": "/contact",
+        "section_key": "contact",
+        "locale": "fa",
+        "order": 6
+      },
+      {
+        "label": "Ev",
+        "href": "/",
+        "section_key": "home",
+        "locale": "tr",
+        "order": 0
+      },
+      {
+        "label": "Şirket",
+        "href": "/about",
+        "section_key": "company",
+        "locale": "tr",
+        "order": 1
+      },
+      {
+        "label": "Is Birimleri",
+        "href": "/#business-units",
+        "section_key": "business-units",
+        "locale": "tr",
+        "order": 2
+      },
+      {
+        "label": "Grup Yapisi",
+        "href": "/#group-structure",
+        "section_key": "group-structure",
+        "locale": "tr",
+        "order": 3
+      },
+      {
+        "label": "Yönetişim",
+        "href": "/governance",
+        "section_key": "governance",
+        "locale": "tr",
+        "order": 4
+      },
+      {
+        "label": "Ekip",
+        "href": "/team",
+        "section_key": "team",
+        "locale": "tr",
+        "order": 5
+      },
+      {
+        "label": "İletişim",
+        "href": "/contact",
+        "section_key": "contact",
+        "locale": "tr",
+        "order": 6
+      }
+    ],
+    "pages": [
+      {
+        "slug": "/",
+        "title": "International Business Group",
+        "locale": "en",
+        "page_type": "home",
+        "status": "published",
+        "seo": {
+          "title": "REZAEI GLOBAL LLC | Property, trade, residency teams",
+          "description": "Reach the right Rezaei Global team for property, trade, residency, or document needs in Oman, Turkey, Iran, and nearby markets.",
+          "keywords": "Rezaei Global, real estate Oman, trade finance, residency visa, document services, Muscat",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "home",
+            "type": "hero",
+            "title": "REZAEI GLOBAL LLC",
+            "subtitle": "One group, three specialist teams",
+            "summary": "We help clients in Oman and nearby markets reach the right team for property, trade, residency, or document work without bouncing between websites.",
+            "body": "Pick the team that matches your request. Send a short message. We reply during business hours.",
+            "order": 0,
+            "settings": {
+              "video": "/media/hero/main-handshake-hero-20260701.mp4",
+              "poster": "/brand/rezaei-global-logo-stacked-web.png",
+              "proof_items": ["Three specialist teams", "Oman, Turkey, Iran reach", "Reply in business hours"],
+              "panel_title": "Where should we send your request?",
+              "panel_subtitle": "Pick a team. We do the rest."
+            },
+            "blocks": [
+              {
+                "block_key": "real-estate-link",
+                "type": "link",
+                "title": "Real Estate, Construction & Materials",
+                "body": "Property, construction projects, building materials, and industrial goods supply.",
+                "href": "https://real-estate.example.com",
+                "order": 0
+              },
+              {
+                "block_key": "finance-link",
+                "type": "link",
+                "title": "Import, Export & Currency Transfer",
+                "body": "Trade, shipment coordination, currency transfer, and foreign exchange services.",
+                "href": "https://finance.example.com",
+                "order": 1
+              },
+              {
+                "block_key": "visa-link",
+                "type": "link",
+                "title": "Residency, Visa & Translation",
+                "body": "Residency, visas, corporate setup, attestation, legalization, and translation services.",
+                "href": "https://visa.example.com",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "company",
+            "type": "rich_text",
+            "title": "About REZAEI GLOBAL LLC",
+            "summary": "Who we are, where we work, and how the group is set up.",
+            "body": "Rezaei Global is the parent company behind three specialist teams. We keep brand, communication, and request routing consistent so every inquiry reaches the right people without delay.",
+            "order": 1,
+            "settings": {
+              "metrics": [
+                ["3", "Specialist teams"],
+                ["4", "Regional markets"],
+                ["1", "Starting point"]
+              ]
+            },
+            "blocks": [
+              {
+                "block_key": "corporate-identity",
+                "type": "card",
+                "title": "One brand",
+                "body": "A single name and identity behind every team you work with.",
+                "order": 0
+              },
+              {
+                "block_key": "regional-context",
+                "type": "card",
+                "title": "Regional focus",
+                "body": "We work day to day across Oman, Turkey, Iran, and nearby Arabic-speaking markets.",
+                "order": 1
+              },
+              {
+                "block_key": "service-routing",
+                "type": "card",
+                "title": "Right team, fast",
+                "body": "Send one message at the group level and we forward it to the desk that can help.",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "business-units",
+            "type": "services",
+            "title": "Three teams, one starting point",
+            "summary": "Pick the team that fits your request - real estate, finance and trade, or residency and documents.",
+            "order": 2,
+            "blocks": [
+              {
+                "block_key": "real-estate",
+                "type": "service_item",
+                "title": "Real Estate",
+                "subtitle": "Property, projects, construction",
+                "body": "For property, construction, investment, project sourcing, materials, and quotation requests.",
+                "href": "https://real-estate.example.com",
+                "order": 0
+              },
+              {
+                "block_key": "finance",
+                "type": "service_item",
+                "title": "Finance & Trade",
+                "subtitle": "Trade, payments, FX",
+                "body": "For import, export, shipment documents, trade coordination, currency transfer, FX, and payment timing.",
+                "href": "https://finance.example.com",
+                "order": 1
+              },
+              {
+                "block_key": "visa",
+                "type": "service_item",
+                "title": "Residency, Visa & Translation",
+                "subtitle": "Mobility, documents, setup",
+                "body": "For residency, visa, translation, attestation, legalization, and corporate setup document paths.",
+                "href": "https://visa.example.com",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "group-structure",
+            "type": "cards",
+            "title": "How the group fits together",
+            "summary": "Rezaei Global is the parent name. The three specialist teams handle the day-to-day work.",
+            "order": 3,
+            "blocks": [
+              {
+                "block_key": "parent-company",
+                "type": "card",
+                "title": "Parent company",
+                "body": "Rezaei Global LLC is the registered company behind the group and the point of contact for partnerships.",
+                "order": 0
+              },
+              {
+                "block_key": "governance",
+                "type": "card",
+                "title": "How we coordinate",
+                "body": "We keep request routing, communication, and service scope clear between teams so nothing falls between desks.",
+                "order": 1
+              },
+              {
+                "block_key": "specialist-units",
+                "type": "card",
+                "title": "Three specialist teams",
+                "body": "Real estate, finance and trade, and residency and visa each have their own desk, terminology, and process.",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "team",
+            "type": "cards",
+            "subtitle": "Leadership",
+            "title": "The people who make sure your request lands well",
+            "summary": "A small leadership team handles group-level conversations and connects clients to the right desk.",
+            "order": 4,
+            "blocks": [
+              {
+                "block_key": "member-1",
+                "type": "card",
+                "title": "Hosein Rezaei",
+                "subtitle": "Group Managing Director",
+                "body": "Sets group direction, oversees corporate conversations, and keeps every request moving toward the right business unit.",
+                "image_url": "/media/team/hosein-rezaei.svg",
+                "order": 0
+              },
+              {
+                "block_key": "member-2",
+                "type": "card",
+                "title": "Ali Rezaei",
+                "subtitle": "Operations Director",
+                "body": "Reviews intake quality, clarifies missing information, and ensures specialist teams receive usable context.",
+                "image_url": "/media/team/ali-rezaei.svg",
+                "order": 1
+              },
+              {
+                "block_key": "member-3",
+                "type": "card",
+                "title": "Mohammad Rezaei",
+                "subtitle": "Real Estate Desk Lead",
+                "body": "Leads property, construction, materials, and quotation conversations across the real estate platform.",
+                "image_url": "/media/team/mohammad-rezaei.svg",
+                "order": 2
+              },
+              {
+                "block_key": "member-4",
+                "type": "card",
+                "title": "Reza Rezaei",
+                "subtitle": "Trade & Finance Desk Lead",
+                "body": "Handles trade, shipment, currency transfer, and commercial finance requests through the finance platform.",
+                "image_url": "/media/team/reza-rezaei.svg",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "section_key": "contact",
+            "type": "contact",
+            "title": "Corporate and partnership contact",
+            "summary": "Send a group-level message for partnerships, investment conversations, or requests that span more than one business unit.",
+            "body": "Include the business area, country, timeline, decision owner, and preferred follow-up language.",
+            "order": 5,
+            "blocks": [
+              {
+                "block_key": "email",
+                "type": "contact_row",
+                "title": "Email",
+                "body": "info@rezaeiglobal.com",
+                "order": 0
+              },
+              {
+                "block_key": "phone",
+                "type": "contact_row",
+                "title": "Phone",
+                "body": "Reach us by email — we respond during business hours.",
+                "order": 1
+              },
+              {
+                "block_key": "location",
+                "type": "contact_row",
+                "title": "Location",
+                "body": "Muscat, Sultanate of Oman",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "governance",
+            "type": "cards",
+            "title": "Clear accountability between teams",
+            "subtitle": "How we work",
+            "summary": "How we keep communication consistent, requests well-routed, and standards stable across every team.",
+            "body": "",
+            "order": 5,
+            "is_visible": true,
+            "settings": {},
+            "blocks": [
+              {
+                "block_key": "responsible-coordination",
+                "type": "card",
+                "title": "Routing first",
+                "body": "Group-level inquiries are read as routing decisions first, so your request lands with the people who actually do the work.",
+                "order": 0,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              },
+              {
+                "block_key": "clear-routing",
+                "type": "card",
+                "title": "Clear boundaries",
+                "body": "We separate property, trade, finance, residency, visa, translation, and company setup so requests do not get lost between desks.",
+                "order": 1,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              },
+              {
+                "block_key": "professional-communication",
+                "type": "card",
+                "title": "Plain communication",
+                "body": "We keep our writing short and concrete, in the language you prefer.",
+                "order": 2,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              },
+              {
+                "block_key": "future-ready",
+                "type": "card",
+                "title": "Each team owns its work",
+                "body": "Each team owns the service it provides. The group keeps oversight, follow-up, and tone consistent.",
+                "order": 3,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              }
+            ]
+          },
+          {
+            "section_key": "explore-group",
+            "type": "links",
+            "title": "Start with the group, then move to the right specialist team",
+            "subtitle": "Explore the group",
+            "summary": "Use this page as the group-level entry point. It explains how REZAEI GLOBAL LLC organizes inquiries, partnerships, and multi-service requests before directing each conversation to the team best placed to handle it.",
+            "body": "",
+            "order": 8,
+            "is_visible": true,
+            "settings": {},
+            "blocks": [
+              {
+                "block_key": "holding-company",
+                "type": "card",
+                "title": "Holding company",
+                "body": "Corporate identity, group-level coordination, strategic partnerships, and requests that involve more than one business unit are reviewed here before being routed to the right specialist desk.",
+                "order": 0,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              },
+              {
+                "block_key": "specialist-teams",
+                "type": "card",
+                "title": "Specialist teams",
+                "body": "Real estate, finance and trade, residency, visa, translation, and company-formation inquiries are handled by focused teams with the context needed for accurate follow-up.",
+                "order": 1,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              },
+              {
+                "block_key": "request-routing",
+                "type": "card",
+                "title": "Request routing",
+                "body": "When an inquiry crosses categories or markets, the holding team clarifies the scope, identifies the correct business unit, and keeps the communication path clear.",
+                "order": 2,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/about",
+        "title": "Company Overview",
+        "locale": "en",
+        "page_type": "detail",
+        "status": "published",
+        "seo": {
+          "title": "Company Overview | REZAEI GLOBAL LLC",
+          "description": "About REZAEI GLOBAL LLC, the holding company behind connected service platforms.",
+          "keywords": "company overview, holding company, REZAEI GLOBAL LLC",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "hero",
+            "type": "hero",
+            "subtitle": "Company Profile",
+            "title": "About REZAEI GLOBAL LLC",
+            "summary": "REZAEI GLOBAL LLC is a holding company that connects clients and partners to focused business units across documents, property, trade, and related services.",
+            "body": "The company keeps the group structure clear, routes serious inquiries to the right team, and supports business relationships that may span more than one service area.",
+            "order": 0,
+            "blocks": []
+          },
+          {
+            "section_key": "overview",
+            "type": "cards",
+            "subtitle": "Company Overview",
+            "title": "One company. Multiple specialist operations.",
+            "summary": "REZAEI GLOBAL LLC acts as the corporate layer behind specialist service platforms. It helps clients understand where to start, which team should respond, and how related business needs can be coordinated under one group.",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "point-1",
+                "type": "card",
+                "title": "Coordinates multiple business units",
+                "body": "The holding company connects residency, property, trade, and document services under one corporate identity.",
+                "order": 0
+              },
+              {
+                "block_key": "point-2",
+                "type": "card",
+                "title": "Connects clients to the right service",
+                "body": "Visitors can understand their need at group level and be directed to the specialist team that can help.",
+                "order": 1
+              },
+              {
+                "block_key": "point-3",
+                "type": "card",
+                "title": "Supports long-term business relationships",
+                "body": "Partners, investors, and recurring clients benefit from a clear and consistent entry point.",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "businesses",
+            "type": "services",
+            "subtitle": "Group Businesses",
+            "title": "Focused platforms for different business needs.",
+            "order": 2,
+            "blocks": [
+              {
+                "block_key": "visa-platform",
+                "type": "service_item",
+                "title": "Residency, Visa & Translation",
+                "body": "Residency, visa, company setup, attestation, legalization, and certified translation support.",
+                "href": "https://visa.example.com",
+                "order": 0
+              },
+              {
+                "block_key": "realestate-platform",
+                "type": "service_item",
+                "title": "Real Estate, Construction & Materials",
+                "body": "Property requests, construction coordination, building materials, and project supply conversations.",
+                "href": "https://real-estate.example.com",
+                "order": 1
+              },
+              {
+                "block_key": "finance-platform",
+                "type": "service_item",
+                "title": "Import, Export & General Trading",
+                "body": "Trade documentation, shipment coordination, currency transfer, FX, and cross-border payment support.",
+                "href": "https://finance.example.com",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "process",
+            "type": "process",
+            "subtitle": "How We Work",
+            "title": "A clear route from request to follow-up.",
+            "summary": "Each inquiry is reviewed for context, assigned to the right business unit, and kept on a practical path.",
+            "order": 3,
+            "blocks": [
+              {
+                "block_key": "step-1",
+                "type": "process_step",
+                "title": "Understand the request",
+                "body": "Clarify the goal, market, timing, and service need.",
+                "order": 0
+              },
+              {
+                "block_key": "step-2",
+                "type": "process_step",
+                "title": "Match the right business unit",
+                "body": "Direct the conversation to the team best placed to respond.",
+                "order": 1
+              },
+              {
+                "block_key": "step-3",
+                "type": "process_step",
+                "title": "Coordinate the service",
+                "body": "Keep the request organized when more than one area is involved.",
+                "order": 2
+              },
+              {
+                "block_key": "step-4",
+                "type": "process_step",
+                "title": "Support after delivery",
+                "body": "Maintain a clear follow-up path for future needs.",
+                "order": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/governance",
+        "title": "Governance",
+        "locale": "en",
+        "page_type": "detail",
+        "status": "published",
+        "seo": {
+          "title": "Governance | REZAEI GLOBAL LLC",
+          "description": "Group operating standards for communication, brand standards, and request routing.",
+          "keywords": "governance, operating standards, client routing",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "hero",
+            "type": "hero",
+            "subtitle": "Group Standards",
+            "title": "Governance & Operating Standards",
+            "summary": "REZAEI GLOBAL LLC maintains clear operating standards across every business unit — from client communication and inquiry routing to brand presentation and partner coordination.",
+            "order": 0,
+            "blocks": []
+          },
+          {
+            "section_key": "principles",
+            "type": "cards",
+            "subtitle": "Core Principles",
+            "title": "How the group maintains consistency.",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "accountability",
+                "type": "card",
+                "title": "Accountability",
+                "body": "Every inquiry is treated as a routing decision first. The group ensures each message reaches the correct specialist team with enough context to respond effectively.",
+                "order": 0
+              },
+              {
+                "block_key": "discipline",
+                "type": "card",
+                "title": "Operating Discipline",
+                "body": "Service boundaries between real estate, trade, and residency are maintained so clients always know which team handles their case and why.",
+                "order": 1
+              },
+              {
+                "block_key": "brand",
+                "type": "card",
+                "title": "Brand Consistency",
+                "body": "Each business unit presents the same corporate identity while operating with its own service language and specialist focus.",
+                "order": 2
+              },
+              {
+                "block_key": "communication",
+                "type": "card",
+                "title": "Communication Standards",
+                "body": "The group maintains professional, concise, and useful messaging for clients, partners, and international visitors across all platforms.",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "section_key": "framework",
+            "type": "cards",
+            "subtitle": "Framework",
+            "title": "Group governance in practice.",
+            "order": 2,
+            "blocks": [
+              {
+                "block_key": "holding-level",
+                "type": "card",
+                "title": "Holding Level",
+                "body": "Corporate communication\nBrand standards\nPartner introductions\nGroup strategy",
+                "order": 0
+              },
+              {
+                "block_key": "business-units",
+                "type": "card",
+                "title": "Business Units",
+                "body": "Service-specific operations\nSpecialist inquiry handling\nPlatform-level content\nClient follow-up",
+                "order": 1
+              },
+              {
+                "block_key": "client-interaction",
+                "type": "card",
+                "title": "Client Interaction",
+                "body": "Clear entry points\nInformed routing\nFocused inquiry paths\nProfessional response",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "process",
+            "type": "process",
+            "subtitle": "Process",
+            "title": "How standards are applied.",
+            "order": 3,
+            "blocks": [
+              {
+                "block_key": "step-1",
+                "type": "process_step",
+                "title": "Keep structure clear",
+                "body": "Each page and platform has a defined role within the group structure.",
+                "order": 0
+              },
+              {
+                "block_key": "step-2",
+                "type": "process_step",
+                "title": "Separate service ownership",
+                "body": "Inquiries are not shared across units — each request has one owning team.",
+                "order": 1
+              },
+              {
+                "block_key": "step-3",
+                "type": "process_step",
+                "title": "Route inquiries responsibly",
+                "body": "The holding ensures every message reaches the right specialist without delay.",
+                "order": 2
+              },
+              {
+                "block_key": "step-4",
+                "type": "process_step",
+                "title": "Improve with real needs",
+                "body": "Feedback from actual client interactions shapes how the group evolves its standards.",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "section_key": "cta",
+            "type": "cta",
+            "subtitle": "Corporate Contact",
+            "title": "Corporate governance or partnership enquiries.",
+            "summary": "For governance questions, corporate introductions, or partnership-level conversations, contact the group directly.",
+            "order": 4,
+            "blocks": [
+              {
+                "block_key": "cta-btn",
+                "type": "button",
+                "title": "Send a corporate message",
+                "href": "/contact",
+                "order": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/contact",
+        "title": "Contact",
+        "locale": "en",
+        "page_type": "contact",
+        "status": "published",
+        "seo": {
+          "title": "Contact | REZAEI GLOBAL LLC",
+          "description": "Send a corporate or partnership inquiry to REZAEI GLOBAL LLC.",
+          "keywords": "contact, corporate inquiry, partnership",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "hero",
+            "type": "hero",
+            "title": "Corporate inquiry",
+            "summary": "Send a group-level request and route the lead to the correct business area.",
+            "order": 0
+          },
+          {
+            "section_key": "contact",
+            "type": "contact",
+            "title": "Start a group-level request",
+            "body": "Include the service area, country, timeline, and preferred contact method.",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "email",
+                "type": "contact_row",
+                "title": "Email",
+                "body": "info@rezaeiglobal.com",
+                "order": 0
+              },
+              {
+                "block_key": "phone",
+                "type": "contact_row",
+                "title": "Phone",
+                "body": "Reach us by email — we respond during business hours.",
+                "order": 1
+              },
+              {
+                "block_key": "location",
+                "type": "contact_row",
+                "title": "Location",
+                "body": "Muscat, Sultanate of Oman",
+                "order": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/faq",
+        "title": "FAQ",
+        "locale": "en",
+        "page_type": "support",
+        "status": "published",
+        "seo": {
+          "title": "FAQ | REZAEI GLOBAL LLC",
+          "description": "Frequently asked questions about REZAEI GLOBAL LLC websites and inquiry handling.",
+          "keywords": "FAQ, questions, support",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "hero",
+            "type": "hero",
+            "subtitle": "FAQ",
+            "title": "Frequently asked questions.",
+            "summary": "Practical answers about the group, request routing, business units, and what to expect after a message is reviewed.",
+            "order": 0,
+            "blocks": []
+          },
+          {
+            "section_key": "faq-starting",
+            "type": "cards",
+            "subtitle": "Starting a request",
+            "summary": "What to prepare before you contact the group.",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "q1",
+                "type": "card",
+                "title": "What does REZAEI GLOBAL LLC do?",
+                "body": "REZAEI GLOBAL LLC is a holding company that connects clients and partners to focused business units across residency, documents, property, construction materials, import, export, and general trading.",
+                "order": 0
+              },
+              {
+                "block_key": "q2",
+                "type": "card",
+                "title": "Where should I send my request if I am not sure?",
+                "body": "Use the main contact page. The group team reviews the request first, then routes it to the right specialist business unit when the service area is clear.",
+                "order": 1
+              },
+              {
+                "block_key": "q3",
+                "type": "card",
+                "title": "What should I include in my first message?",
+                "body": "Include the service area, country, timeline, preferred language, and any documents, quantities, property details, or business context that may affect the next step.",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "faq-routing",
+            "type": "cards",
+            "subtitle": "Routing and business units",
+            "summary": "How the group directs requests to the right team.",
+            "order": 2,
+            "blocks": [
+              {
+                "block_key": "q4",
+                "type": "card",
+                "title": "Which requests go to Residency, Visa & Translation?",
+                "body": "Residency, visa, translation, attestation, legalization, and document-readiness requests are reviewed through the residency and visa platform.",
+                "order": 0
+              },
+              {
+                "block_key": "q5",
+                "type": "card",
+                "title": "Which requests go to Real Estate, Construction & Materials?",
+                "body": "Property, project, construction, building material, and quotation requests are routed to the real estate and materials team.",
+                "order": 1
+              },
+              {
+                "block_key": "q6",
+                "type": "card",
+                "title": "Which requests go to Import, Export & General Trading?",
+                "body": "Import, export, shipment coordination, product sourcing, payment context, and trade-related inquiries are routed to the trading platform.",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "faq-followup",
+            "type": "cards",
+            "subtitle": "Follow-up and decisions",
+            "summary": "What happens after your message is reviewed.",
+            "order": 3,
+            "blocks": [
+              {
+                "block_key": "q7",
+                "type": "card",
+                "title": "What happens after I submit an inquiry?",
+                "body": "The message is reviewed, the request type is identified, and the relevant team follows up with practical questions, required information, or a clear next action.",
+                "order": 0
+              },
+              {
+                "block_key": "q8",
+                "type": "card",
+                "title": "Can one request involve more than one business unit?",
+                "body": "Yes. If a request crosses more than one service area, the group keeps visibility and helps coordinate the handoff so the conversation does not restart from zero.",
+                "order": 1
+              },
+              {
+                "block_key": "q9",
+                "type": "card",
+                "title": "Are prices and timelines confirmed on the website?",
+                "body": "No. Pricing, timelines, and service feasibility depend on the exact request details and are confirmed only after direct review by the responsible team.",
+                "order": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/privacy",
+        "title": "Privacy",
+        "locale": "en",
+        "page_type": "support",
+        "status": "published",
+        "seo": {
+          "title": "Privacy | REZAEI GLOBAL LLC",
+          "description": "Privacy and data handling for inquiry forms and contact details.",
+          "keywords": "privacy, data handling, inquiries",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "hero",
+            "type": "hero",
+            "subtitle": "Privacy",
+            "title": "Privacy and data handling.",
+            "summary": "A simple explanation of how REZAEI GLOBAL LLC handles inquiry details sent through this website.",
+            "order": 0,
+            "blocks": []
+          },
+          {
+            "section_key": "privacy-collect",
+            "type": "cards",
+            "subtitle": "What we collect",
+            "summary": "Only the details needed to understand and respond to an inquiry.",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "collect-1",
+                "type": "card",
+                "title": "Contact information",
+                "body": "When you use an inquiry form, we may receive your name, email address, phone number, company name, country, preferred service area, and message.",
+                "order": 0
+              },
+              {
+                "block_key": "collect-2",
+                "type": "card",
+                "title": "Request context",
+                "body": "Your message may include project details, document needs, property requirements, trade information, timelines, or other information you choose to provide.",
+                "order": 1
+              }
+            ]
+          },
+          {
+            "section_key": "privacy-use",
+            "type": "cards",
+            "subtitle": "How we use it",
+            "summary": "Information is used for direct business communication and request routing.",
+            "order": 2,
+            "blocks": [
+              {
+                "block_key": "use-1",
+                "type": "card",
+                "title": "Inquiry review",
+                "body": "We use submitted details to understand the request, identify the relevant business unit, and prepare a useful follow-up.",
+                "order": 0
+              },
+              {
+                "block_key": "use-2",
+                "type": "card",
+                "title": "Specialist routing",
+                "body": "If the request belongs to a specific platform, the information may be shared internally with the team responsible for that service area.",
+                "order": 1
+              }
+            ]
+          },
+          {
+            "section_key": "privacy-control",
+            "type": "cards",
+            "subtitle": "Your control",
+            "summary": "You decide what to send in the first message.",
+            "order": 3,
+            "blocks": [
+              {
+                "block_key": "control-1",
+                "type": "card",
+                "title": "Keep it concise",
+                "body": "You do not need to send unnecessary personal or business documents in the first message. Share only what is needed to explain the request.",
+                "order": 0
+              },
+              {
+                "block_key": "control-2",
+                "type": "card",
+                "title": "Follow-up choices",
+                "body": "You can ask for clarification, request a preferred contact method, or provide additional details after the correct service path is confirmed.",
+                "order": 1
+              }
+            ]
+          },
+          {
+            "section_key": "privacy-note",
+            "type": "rich_text",
+            "subtitle": "Important note",
+            "title": "This page is provided for general website transparency.",
+            "summary": "For a specific legal, contractual, or regulatory question, contact the company directly before submitting sensitive information.",
+            "order": 4,
+            "blocks": []
+          }
+        ]
+      },
+      {
+        "slug": "/terms",
+        "title": "Terms",
+        "locale": "en",
+        "page_type": "support",
+        "status": "published",
+        "seo": {
+          "title": "Terms | REZAEI GLOBAL LLC",
+          "description": "Website terms for service information, inquiry submission, content use, and deployment.",
+          "keywords": "terms, website terms, inquiry submission",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "hero",
+            "type": "hero",
+            "subtitle": "Terms",
+            "title": "Terms of website use.",
+            "summary": "Clear expectations for using this website, reading service information, and submitting inquiries to REZAEI GLOBAL LLC.",
+            "order": 0,
+            "blocks": []
+          },
+          {
+            "section_key": "terms-use",
+            "type": "cards",
+            "subtitle": "Website use",
+            "summary": "The website is provided to explain the company, business units, and inquiry paths.",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "use-1",
+                "type": "card",
+                "title": "Information only",
+                "body": "Service descriptions, page content, and business unit summaries are provided for general orientation and may change as the group updates its operations.",
+                "order": 0
+              },
+              {
+                "block_key": "use-2",
+                "type": "card",
+                "title": "No automatic engagement",
+                "body": "Submitting a form or reading a service page does not create a confirmed service agreement, quotation, representation, or business commitment.",
+                "order": 1
+              }
+            ]
+          },
+          {
+            "section_key": "terms-handling",
+            "type": "cards",
+            "subtitle": "Inquiry handling",
+            "summary": "Requests are reviewed before any next step is confirmed.",
+            "order": 2,
+            "blocks": [
+              {
+                "block_key": "handling-1",
+                "type": "card",
+                "title": "Direct review",
+                "body": "Each inquiry is assessed based on the details provided, the relevant country or market, timing, documents, and the responsible business unit.",
+                "order": 0
+              },
+              {
+                "block_key": "handling-2",
+                "type": "card",
+                "title": "Follow-up requirements",
+                "body": "The team may request more information before confirming whether a service path, timeline, quotation, or next step is available.",
+                "order": 1
+              }
+            ]
+          },
+          {
+            "section_key": "terms-content",
+            "type": "cards",
+            "subtitle": "Content and responsibility",
+            "summary": "Use the website content responsibly and verify details directly.",
+            "order": 3,
+            "blocks": [
+              {
+                "block_key": "content-1",
+                "type": "card",
+                "title": "Brand and content",
+                "body": "The website name, structure, text, visuals, and brand materials belong to the REZAEI GLOBAL LLC website experience and should not be copied or reused without permission.",
+                "order": 0
+              },
+              {
+                "block_key": "content-2",
+                "type": "card",
+                "title": "Final confirmation",
+                "body": "Important commercial, legal, document, property, trade, or residency decisions should be confirmed directly with the responsible team before you rely on them.",
+                "order": 1
+              }
+            ]
+          },
+          {
+            "section_key": "terms-note",
+            "type": "rich_text",
+            "subtitle": "Practical note",
+            "title": "If your request depends on deadlines, documents, market conditions, or official requirements, wait for direct confirmation from the relevant team before making decisions.",
+            "order": 4,
+            "blocks": []
+          }
+        ]
+      },
+      {
+        "slug": "/",
+        "title": "Üç uzman ekip, tek başlangıç",
+        "locale": "tr",
+        "page_type": "home",
+        "status": "published",
+        "seo": {
+          "title": "REZAEI GLOBAL LLC | Emlak, ticaret, ikamet ekipleri",
+          "description": "Umman, Türkiye, İran ve çevre pazarlarda emlak, ticaret, ikamet veya belge işleriniz için doğru Rezaei Global ekibine ulaşın.",
+          "keywords": "Rezaei Global, Umman emlak, ticaret finans, ikamet vize, belge hizmetleri, Maskat",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "home",
+            "type": "hero",
+            "title": "REZAEI GLOBAL LLC",
+            "subtitle": "Tek grup, üç uzman ekip",
+            "summary": "Umman ve çevre pazarlarda müşterilerimizin emlak, ticaret, ikamet veya belge konularında doğru ekibe ulaşmasını sağlıyoruz; siteden siteye dolaşmaya gerek kalmadan.",
+            "body": "Talebinize uygun ekibi seçin. Kısa bir mesaj bırakın. Mesai saatlerinde yanıt veriyoruz.",
+            "order": 0,
+            "settings": {
+              "video": "/media/hero/main-handshake-hero-20260701.mp4",
+              "poster": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80"
+            },
+            "blocks": [
+              {
+                "block_key": "real-estate-link",
+                "type": "link",
+                "title": "Emlak, İnşaat ve Malzemeler",
+                "body": "Gayrimenkul, inşaat projeleri, inşaat malzemeleri ve endüstriyel mal tedariği.",
+                "href": "https://real-estate.example.com",
+                "order": 0
+              },
+              {
+                "block_key": "finance-link",
+                "type": "link",
+                "title": "İthalat, İhracat ve Döviz Transferi",
+                "body": "Ticaret, sevkiyat koordinasyonu, döviz transferi ve döviz hizmetleri.",
+                "href": "https://finance.example.com",
+                "order": 1
+              },
+              {
+                "block_key": "visa-link",
+                "type": "link",
+                "title": "İkamet, Vize ve Çeviri",
+                "body": "İkamet, vizeler, kurumsal kurulum, tasdik, yasallaştırma ve çeviri hizmetleri.",
+                "href": "https://visa.example.com",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "company",
+            "type": "rich_text",
+            "title": "REZAEI GLOBAL LLC hakkında",
+            "summary": "Biz kimiz, nerede çalışıyoruz ve grup nasıl yapılandırılmış?",
+            "body": "Rezaei Global, üç uzman ekibin arkasındaki ana şirkettir. Marka, iletişim ve talep yönlendirmesini tutarlı tutuyoruz; böylece her başvuru gecikmeden doğru kişilere ulaşıyor.",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "corporate-identity",
+                "type": "card",
+                "title": "Tek bir marka",
+                "body": "Birlikte çalıştığınız her ekibin arkasında aynı isim ve aynı kimlik.",
+                "order": 0
+              },
+              {
+                "block_key": "regional-context",
+                "type": "card",
+                "title": "Bölgesel odak",
+                "body": "Umman, Türkiye, İran ve çevredeki Arapça konuşulan pazarlarda günlük olarak çalışıyoruz.",
+                "order": 1
+              },
+              {
+                "block_key": "service-routing",
+                "type": "card",
+                "title": "Doğru ekibe hızlı erişim",
+                "body": "Grup düzeyinde tek bir mesaj gönderin; biz onu yardımcı olabilecek masaya yönlendirelim.",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "business-units",
+            "type": "services",
+            "title": "Üç ekip, tek başlangıç noktası",
+            "summary": "Talebinize uygun ekibi seçin: emlak, finans ve ticaret ya da ikamet ve belgeler.",
+            "order": 2,
+            "blocks": [
+              {
+                "block_key": "real-estate",
+                "type": "service_item",
+                "title": "Gayrimenkul",
+                "subtitle": "Gayrimenkul, projeler, inşaat",
+                "body": "Mülk, inşaat, yatırım, proje kaynak bulma, malzeme ve fiyat teklifi talepleri için.",
+                "href": "https://real-estate.example.com",
+                "order": 0
+              },
+              {
+                "block_key": "finance",
+                "type": "service_item",
+                "title": "Finans ve Ticaret",
+                "subtitle": "Ticaret, ödemeler, FX",
+                "body": "İthalat, ihracat, sevkıyat belgeleri, ticaret koordinasyonu, döviz transferi, FX ve ödeme zamanlaması için.",
+                "href": "https://finance.example.com",
+                "order": 1
+              },
+              {
+                "block_key": "visa",
+                "type": "service_item",
+                "title": "İkamet, Vize ve Çeviri",
+                "subtitle": "Mobilite, belgeler, kurulum",
+                "body": "İkamet, vize, çeviri, tasdik, yasallaştırma ve kurumsal kurulum belge yolları için.",
+                "href": "https://visa.example.com",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "group-structure",
+            "type": "cards",
+            "title": "Grup nasıl kurgulanmış?",
+            "summary": "Rezaei Global ana isimdir; günlük işi üç uzman ekip yürütür.",
+            "order": 3,
+            "blocks": [
+              {
+                "block_key": "parent-company",
+                "type": "card",
+                "title": "Ana şirket",
+                "body": "Rezaei Global LLC, grubun arkasındaki kayıtlı şirkettir ve ortaklıklar için iletişim noktasıdır.",
+                "order": 0
+              },
+              {
+                "block_key": "governance",
+                "type": "card",
+                "title": "Nasıl koordine oluyoruz",
+                "body": "Talep yönlendirmesini, iletişimi ve hizmet kapsamını ekipler arasında net tutuyoruz; böylece hiçbir şey masalar arasında kaybolmuyor.",
+                "order": 1
+              },
+              {
+                "block_key": "specialist-units",
+                "type": "card",
+                "title": "Üç uzman ekip",
+                "body": "Emlak, finans ve ticaret ile ikamet ve vize ekiplerinin her birinin kendi masası, terminolojisi ve süreci vardır.",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "team",
+            "type": "cards",
+            "subtitle": "Liderlik",
+            "title": "Talebinizin doğru ele alınmasını sağlayan ekip",
+            "summary": "Grup düzeyindeki görüşmeleri yürüten ve müşterileri doğru masaya bağlayan küçük bir liderlik ekibi.",
+            "order": 4,
+            "blocks": [
+              {
+                "block_key": "member-1",
+                "type": "card",
+                "title": "Hosein Rezaei",
+                "subtitle": "Grup Genel Müdürü",
+                "body": "Grup yönünü belirler, kurumsal görüşmeleri yönetir ve her talebi doğru iş birimine yönlendirir.",
+                "image_url": "/media/team/hosein-rezaei.svg",
+                "order": 0
+              },
+              {
+                "block_key": "member-2",
+                "type": "card",
+                "title": "Ali Rezaei",
+                "subtitle": "Operasyon Direktörü",
+                "body": "Talep kalitesini gözden geçirir, eksik bilgileri netleştirir ve uzman ekiplere kullanılabilir bir bağlamla aktarır.",
+                "image_url": "/media/team/ali-rezaei.svg",
+                "order": 1
+              },
+              {
+                "block_key": "member-3",
+                "type": "card",
+                "title": "Mohammad Rezaei",
+                "subtitle": "Emlak Masası Lideri",
+                "body": "Emlak ekibinde mülk, inşaat, malzeme ve fiyat teklifi görüşmelerini yürütür.",
+                "image_url": "/media/team/mohammad-rezaei.svg",
+                "order": 2
+              },
+              {
+                "block_key": "member-4",
+                "type": "card",
+                "title": "Reza Rezaei",
+                "subtitle": "Ticaret ve Finans Masası Lideri",
+                "body": "Finans ekibi üzerinden ticaret, sevkiyat, para transferi ve ticari finans taleplerini takip eder.",
+                "image_url": "/media/team/reza-rezaei.svg",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "section_key": "contact",
+            "type": "contact",
+            "title": "Kurumsal ve ortaklık iletişimi",
+            "summary": "Ortaklıklar, yatırım görüşmeleri veya birden fazla iş birimini kapsayan talepler için grup düzeyinde mesaj gönderin.",
+            "body": "İş alanını, ülkeyi, zaman çizelgesini, karar sahibini ve tercih edilen takip dilini ekleyin.",
+            "order": 5,
+            "blocks": [
+              {
+                "block_key": "email",
+                "type": "contact_row",
+                "title": "E-posta",
+                "body": "info@rezaeiglobal.com",
+                "order": 0
+              },
+              {
+                "block_key": "phone",
+                "type": "contact_row",
+                "title": "Telefon",
+                "body": "Bize e-posta ile ulaşın — mesai saatlerinde yanıt veriyoruz.",
+                "order": 1
+              },
+              {
+                "block_key": "location",
+                "type": "contact_row",
+                "title": "Konum",
+                "body": "Muscat, Umman Sultanlığı",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "governance",
+            "type": "cards",
+            "title": "Ekipler arasında net hesap verebilirlik",
+            "subtitle": "Çalışma biçimimiz",
+            "summary": "İletişimi tutarlı, talep yönlendirmesini sağlam ve standartları her ekipte aynı seviyede nasıl tutuyoruz.",
+            "body": "",
+            "order": 5,
+            "is_visible": true,
+            "settings": {},
+            "blocks": [
+              {
+                "block_key": "responsible-coordination",
+                "type": "card",
+                "title": "Sorumlu Koordinasyon",
+                "body": "Grup düzeyindeki sorgular öncelikle yönlendirme kararları olarak ele alınır, böylece her istek doğru uzmanlık alanına ulaşır.",
+                "order": 0,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              },
+              {
+                "block_key": "clear-routing",
+                "type": "card",
+                "title": "Net sınırlar",
+                "body": "Mülk, ticaret, finans, ikamet, vize, tercüme ve şirket kurulumu taleplerini ayrı tutuyoruz; böylece istekler masalar arasında kaybolmuyor.",
+                "order": 1,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              },
+              {
+                "block_key": "professional-communication",
+                "type": "card",
+                "title": "Profesyonel İletişim",
+                "body": "Holding sitesi, mesajlaşmanın ortaklar, müşteriler ve uluslararası ziyaretçiler için tutarlı, kısa ve kullanışlı olmasını sağlar.",
+                "order": 2,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              },
+              {
+                "block_key": "future-ready",
+                "type": "card",
+                "title": "Yapılandırılmış hesap verebilirlik",
+                "body": "Her iş birimi kendi hizmet kapsamından sorumluyken holding şirketi denetim, yönlendirme disiplini ve tutarlı müşteri iletişimini sürdürür.",
+                "order": 3,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              }
+            ]
+          },
+          {
+            "section_key": "explore-group",
+            "type": "links",
+            "title": "Grup düzeyinden başlayın, ardından doğru uzman ekibe geçin",
+            "subtitle": "Grubu tanıyın",
+            "summary": "Bu sayfa REZAEI GLOBAL LLC için grup düzeyindeki giriş noktasıdır. Taleplerin, ortaklık görüşmelerinin ve birden fazla hizmeti kapsayan konuların nasıl değerlendirildiğini ve doğru uzman ekibe nasıl yönlendirildiğini açıklar.",
+            "body": "",
+            "order": 8,
+            "is_visible": true,
+            "settings": {},
+            "blocks": [
+              {
+                "block_key": "holding-company",
+                "type": "card",
+                "title": "Holding Şirketi",
+                "body": "Kurumsal kimlik, grup koordinasyonu, stratejik ortaklıklar ve birden fazla iş birimini ilgilendiren talepler burada değerlendirilir ve ilgili uzman masaya yönlendirilir.",
+                "order": 0,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              },
+              {
+                "block_key": "specialist-teams",
+                "type": "card",
+                "title": "Uzman ekipler",
+                "body": "Gayrimenkul, finans ve ticaret, oturum, vize, tercüme ve şirket kuruluşu talepleri, doğru takip için gerekli bağlama sahip odaklı ekipler tarafından ele alınır.",
+                "order": 1,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              },
+              {
+                "block_key": "request-routing",
+                "type": "card",
+                "title": "Talep yönlendirme",
+                "body": "Bir talep birden fazla kategoriye veya pazara yayıldığında holding ekibi kapsamı netleştirir, doğru iş birimini belirler ve iletişim yolunu düzenli tutar.",
+                "order": 2,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/about",
+        "title": "Şirkete Genel Bakış",
+        "locale": "tr",
+        "page_type": "detail",
+        "status": "published",
+        "seo": {
+          "title": "Şirkete Genel Bakış | REZAEI GLOBAL LLC",
+          "description": "Bağlantılı hizmet platformlarının arkasındaki holding şirketi olan REZAEI GLOBAL LLC hakkında.",
+          "keywords": "şirkete genel bakış, holding şirketi, REZAEI GLOBAL LLC",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "hero",
+            "type": "hero",
+            "title": "Holding şirketi hakkında",
+            "summary": "Şirket profili, iş odağı, faaliyet bölgeleri ve holding şirketinin her hizmet platformunun arkasındaki rolü.",
+            "order": 0
+          },
+          {
+            "section_key": "overview",
+            "type": "cards",
+            "title": "Grup profili",
+            "body": "Şirket, tek hizmetli bir açılış sayfası yerine merkezi bir işletme kimliği olarak faaliyet göstermektedir.",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "brand",
+                "type": "card",
+                "title": "Marka netliği",
+                "body": "Tek bir kurumsal kimlik her iş birimini destekler.",
+                "order": 0
+              },
+              {
+                "block_key": "presence",
+                "type": "card",
+                "title": "Bölgesel varlık",
+                "body": "Grup, uluslararası ve bölgesel iş görüşmelerine hizmet vermektedir.",
+                "order": 1
+              },
+              {
+                "block_key": "categories",
+                "type": "card",
+                "title": "Hizmet kategorileri",
+                "body": "Ayrı iş kolları tek bir işletme markası altında birbirine bağlanıyor.",
+                "order": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/governance",
+        "title": "Yönetişim",
+        "locale": "tr",
+        "page_type": "detail",
+        "status": "published",
+        "seo": {
+          "title": "Yönetişim | REZAEI GLOBAL LLC",
+          "description": "İletişim, marka standartları ve istek yönlendirmeye yönelik grup işletim standartları.",
+          "keywords": "yönetişim, işletim standartları, müşteri yönlendirme",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "hero",
+            "type": "hero",
+            "title": "Grup çalışma standartları",
+            "summary": "Holding şirketinin iletişimi, marka standartlarını ve talep yönlendirmeyi her iş biriminde nasıl tutarlı tuttuğu.",
+            "order": 0
+          },
+          {
+            "section_key": "standards",
+            "type": "process",
+            "title": "Sorumlu işletim modeli",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "brand",
+                "type": "process_step",
+                "title": "Marka standartları",
+                "body": "Grup genelinde tek bir kurumsal kimliği koruyun.",
+                "order": 0
+              },
+              {
+                "block_key": "routing",
+                "type": "process_step",
+                "title": "Yönlendirme iste",
+                "body": "Her talebi doğru iş birimine taşıyın.",
+                "order": 1
+              },
+              {
+                "block_key": "follow-up",
+                "type": "process_step",
+                "title": "Takip netliği",
+                "body": "İletişimi doğrudan ve hizmete özel tutun.",
+                "order": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/contact",
+        "title": "İletişim",
+        "locale": "tr",
+        "page_type": "contact",
+        "status": "published",
+        "seo": {
+          "title": "İletişim | REZAEI GLOBAL LLC",
+          "description": "REZAEI GLOBAL LLC adresine kurumsal veya ortaklık sorgusu gönderin.",
+          "keywords": "iletişim, kurumsal sorgulama, ortaklık",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "hero",
+            "type": "hero",
+            "title": "Kurumsal sorgulama",
+            "summary": "Grup düzeyinde bir istek gönderin ve müşteri adayını doğru iş alanına yönlendirin.",
+            "order": 0
+          },
+          {
+            "section_key": "contact",
+            "type": "contact",
+            "title": "Grup düzeyinde bir istek başlatın",
+            "body": "Hizmet bölgesini, ülkeyi, zaman çizelgesini ve tercih edilen iletişim yöntemini ekleyin.",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "email",
+                "type": "contact_row",
+                "title": "E-posta",
+                "body": "info@rezaeiglobal.com",
+                "order": 0
+              },
+              {
+                "block_key": "phone",
+                "type": "contact_row",
+                "title": "Telefon",
+                "body": "Bize e-posta ile ulaşın — mesai saatlerinde yanıt veriyoruz.",
+                "order": 1
+              },
+              {
+                "block_key": "location",
+                "type": "contact_row",
+                "title": "Konum",
+                "body": "Muscat, Umman Sultanlığı",
+                "order": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/faq",
+        "title": "SSS",
+        "locale": "tr",
+        "page_type": "support",
+        "status": "published",
+        "seo": {
+          "title": "SSS | REZAEI GLOBAL LLC",
+          "description": "REZAEI GLOBAL LLC web siteleri ve sorgulama yönetimi hakkında sık sorulan sorular.",
+          "keywords": "SSS, sorular, destek",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "support",
+            "type": "cards",
+            "title": "Sık sorulan sorular",
+            "summary": "Hizmet kapsamı, sorgu yönetimi, çok dilli içerik, alt etki alanı dağıtımı ve sonraki adımlar hakkındaki yanıtlar.",
+            "order": 0,
+            "blocks": [
+              {
+                "block_key": "scope",
+                "type": "card",
+                "title": "Hizmet kapsamı",
+                "body": "Açık yanıtlar, genel web sitesi bilgilerini doğrudan inceleme gerektiren hizmetlerden ayırır.",
+                "order": 0
+              },
+              {
+                "block_key": "handling",
+                "type": "card",
+                "title": "Sorgu yönetimi",
+                "body": "Formlar, ziyaretçinin hedefini ve hizmet kategorisini anlamak için gereken temel ayrıntıları toplar.",
+                "order": 1
+              },
+              {
+                "block_key": "next",
+                "type": "card",
+                "title": "Sonraki adımlar",
+                "body": "Ziyaretçiler, talebi hangi iş alanının alması gerektiğini tahmin etmek yerine bir iletişim yoluna yönlendirilir.",
+                "order": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/privacy",
+        "title": "Gizlilik",
+        "locale": "tr",
+        "page_type": "support",
+        "status": "published",
+        "seo": {
+          "title": "Gizlilik | REZAEI GLOBAL LLC",
+          "description": "Sorgu formları ve iletişim bilgileri için gizlilik ve veri işleme.",
+          "keywords": "gizlilik, veri işleme, sorular",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "privacy",
+            "type": "cards",
+            "title": "Gizlilik ve veri işleme",
+            "summary": "Sorgu formu verileri, iletişim bilgileri, potansiyel müşteri yönetimi ve sorumlu takip hakkında bilgiler.",
+            "order": 0,
+            "blocks": [
+              {
+                "block_key": "inquiry-data",
+                "type": "card",
+                "title": "Sorgu verileri",
+                "body": "Gönderilen bilgiler, talebi anlamak ve uygun iş alanına yönlendirmek için kullanılır.",
+                "order": 0
+              },
+              {
+                "block_key": "contact-details",
+                "type": "card",
+                "title": "İletişim bilgileri",
+                "body": "E-posta ve telefon alanları, ekibin bağlam ve aciliyetle yanıt vermesine yardımcı olur.",
+                "order": 1
+              },
+              {
+                "block_key": "choice",
+                "type": "card",
+                "title": "Ziyaretçi seçimi",
+                "body": "Ziyaretçiler ne göndereceklerini kontrol eder ve ilk mesajı kısa ve öz tutabilirler.",
+                "order": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/terms",
+        "title": "Koşullar",
+        "locale": "tr",
+        "page_type": "support",
+        "status": "published",
+        "seo": {
+          "title": "Koşullar | REZAEI GLOBAL LLC",
+          "description": "Hizmet bilgileri, sorgulama gönderimi, içerik kullanımı ve dağıtıma ilişkin web sitesi şartları.",
+          "keywords": "şartlar, web sitesi şartları, talep gönderimi",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "terms",
+            "type": "cards",
+            "title": "Web sitesi şartları",
+            "summary": "Hizmet bilgileri, sorgulama gönderimi, içerik kullanımı ve gelecekteki canlı dağıtıma ilişkin genel web sitesi koşulları.",
+            "order": 0,
+            "blocks": [
+              {
+                "block_key": "information",
+                "type": "card",
+                "title": "Web sitesi bilgileri",
+                "body": "Hizmet açıklamaları yönlendirme amacıyla sunulmaktadır ve belirli bir vakanın doğrudan incelenmesinin yerine geçmez.",
+                "order": 0
+              },
+              {
+                "block_key": "submission",
+                "type": "card",
+                "title": "Sorgu gönderimi",
+                "body": "Formlar bir görüşme başlatır ve tek başına onaylanmış bir etkileşim oluşturmaz.",
+                "order": 1
+              },
+              {
+                "block_key": "content",
+                "type": "card",
+                "title": "İçerik kullanımı",
+                "body": "Marka, metin ve medya, REZAEI GLOBAL LLC web sitesi deneyiminin bir parçasıdır.",
+                "order": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/",
+        "title": "سه تیم تخصصی، یک نقطه شروع",
+        "locale": "fa",
+        "page_type": "home",
+        "status": "published",
+        "seo": {
+          "title": "REZAEI GLOBAL LLC | املاک، تجارت و خدمات اقامت",
+          "description": "در عُمان، ترکیه، ایران و بازارهای پیرامون به تیم مناسب رضایی گلوبال برای املاک، تجارت، اقامت یا اسناد دسترسی پیدا کنید.",
+          "keywords": "رضایی گلوبال، املاک عُمان، تجارت و مالی، اقامت و ویزا، خدمات اسنادی، مسقط",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "home",
+            "type": "hero",
+            "title": "REZAEI GLOBAL LLC",
+            "subtitle": "یک گروه، سه تیم تخصصی",
+            "summary": "به مشتریان در عُمان و بازارهای پیرامون کمک می‌کنیم تا برای املاک، تجارت، اقامت یا اسناد، بدون چرخیدن میان چند سایت، به تیم مناسب برسند.",
+            "body": "تیم مناسب با درخواست خود را انتخاب کنید. یک پیام کوتاه بفرستید. در ساعات کاری پاسخ می‌دهیم.",
+            "order": 0,
+            "settings": {
+              "video": "/media/hero/main-handshake-hero-20260701.mp4",
+              "poster": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80"
+            },
+            "blocks": [
+              {
+                "block_key": "real-estate-link",
+                "type": "link",
+                "title": "املاک، ساخت‌وساز و مصالح",
+                "body": "خرید و فروش املاک، پروژه‌های ساختمانی، مصالح ساختمانی و کالاهای صنعتی.",
+                "href": "https://real-estate.example.com",
+                "order": 0
+              },
+              {
+                "block_key": "finance-link",
+                "type": "link",
+                "title": "واردات، صادرات و انتقال ارز",
+                "body": "تجارت، هماهنگی حمل بار، انتقال ارز و معاملات ارزی.",
+                "href": "https://finance.example.com",
+                "order": 1
+              },
+              {
+                "block_key": "visa-link",
+                "type": "link",
+                "title": "اقامت، ویزا و ترجمه",
+                "body": "اقامت، ویزا، ثبت شرکت، تأیید اسناد، تصدیق رسمی و ترجمه رسمی.",
+                "href": "https://visa.example.com",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "company",
+            "type": "rich_text",
+            "title": "درباره REZAEI GLOBAL LLC",
+            "summary": "ما چه کسی هستیم، کجا کار می‌کنیم و گروه چگونه ساختاردهی شده است.",
+            "body": "رضایی گلوبال شرکت مادر سه تیم تخصصی است. برند، ارتباطات و مسیر درخواست را یکدست نگه می‌داریم تا هر پیام بدون تأخیر به دست افراد درست برسد.",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "corporate-identity",
+                "type": "card",
+                "title": "یک برند",
+                "body": "پشت هر تیمی که با آن کار می‌کنید، یک نام و یک هویت قرار دارد.",
+                "order": 0
+              },
+              {
+                "block_key": "regional-context",
+                "type": "card",
+                "title": "تمرکز منطقه‌ای",
+                "body": "ما به‌صورت روزانه در عُمان، ترکیه، ایران و بازارهای عربی‌زبان همسایه کار می‌کنیم.",
+                "order": 1
+              },
+              {
+                "block_key": "service-routing",
+                "type": "card",
+                "title": "تیم درست، سریع",
+                "body": "یک پیام در سطح گروه بفرستید؛ ما آن را به میزی که می‌تواند کمک کند هدایت می‌کنیم.",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "business-units",
+            "type": "services",
+            "title": "سه تیم، یک نقطه شروع",
+            "summary": "تیم متناسب با درخواست خود را انتخاب کنید: املاک، مالی و تجارت، یا اقامت و اسناد.",
+            "order": 2,
+            "blocks": [
+              {
+                "block_key": "real-estate",
+                "type": "service_item",
+                "title": "املاک و مستغلات",
+                "subtitle": "املاک، پروژه ها، ساخت و ساز",
+                "body": "برای درخواست ملک، ساخت و ساز، سرمایه گذاری، منابع پروژه، مواد و درخواست قیمت.",
+                "href": "https://real-estate.example.com",
+                "order": 0
+              },
+              {
+                "block_key": "finance",
+                "type": "service_item",
+                "title": "امور مالی و تجارت",
+                "subtitle": "تجارت، پرداخت، FX",
+                "body": "برای واردات، صادرات، اسناد حمل و نقل، هماهنگی تجاری، انتقال ارز، FX، و زمان پرداخت.",
+                "href": "https://finance.example.com",
+                "order": 1
+              },
+              {
+                "block_key": "visa",
+                "type": "service_item",
+                "title": "اقامت، ویزا و ترجمه",
+                "subtitle": "تحرک، اسناد، راه اندازی",
+                "body": "برای مسیرهای مدارک اقامت، ویزا، ترجمه، گواهی، قانونی و راه اندازی شرکت.",
+                "href": "https://visa.example.com",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "group-structure",
+            "type": "cards",
+            "title": "ساختار گروه چگونه است",
+            "summary": "رضایی گلوبال نام مادر است؛ کار روزمره را سه تیم تخصصی انجام می‌دهند.",
+            "order": 3,
+            "blocks": [
+              {
+                "block_key": "parent-company",
+                "type": "card",
+                "title": "شرکت مادر",
+                "body": "رضایی گلوبال شرکت ثبت‌شده پشت گروه است و نقطه تماس همکاری‌ها به شمار می‌آید.",
+                "order": 0
+              },
+              {
+                "block_key": "governance",
+                "type": "card",
+                "title": "نحوه هماهنگی",
+                "body": "مسیر درخواست، ارتباطات و دامنه خدمات را میان تیم‌ها روشن نگه می‌داریم تا چیزی میان میزها گم نشود.",
+                "order": 1
+              },
+              {
+                "block_key": "specialist-units",
+                "type": "card",
+                "title": "سه تیم تخصصی",
+                "body": "املاک، مالی و تجارت، و اقامت و ویزا هر کدام میز، اصطلاحات و فرایند مخصوص خود را دارند.",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "team",
+            "type": "cards",
+            "subtitle": "تیم رهبری",
+            "title": "افرادی که پشت مسیریابی شفاف و تحویل تخصصی هستند.",
+            "summary": "REZAEI GLOBAL LLC توسط گروه رهبری فشرده‌ای اداره می‌شود که ارتباطات سطح گروه را روشن نگه می‌دارد و مشتریان را به میز تخصصی درست متصل می‌کند.",
+            "order": 4,
+            "blocks": [
+              {
+                "block_key": "member-1",
+                "type": "card",
+                "title": "Hosein Rezaei",
+                "subtitle": "مدیرعامل گروه",
+                "body": "جهت‌گیری گروه را تعیین می‌کند، گفت‌وگوهای شرکتی را هدایت می‌کند و هر درخواست را به واحد تجاری درست هدایت می‌کند.",
+                "image_url": "/media/team/hosein-rezaei.svg",
+                "order": 0
+              },
+              {
+                "block_key": "member-2",
+                "type": "card",
+                "title": "Ali Rezaei",
+                "subtitle": "مدیر عملیات",
+                "body": "کیفیت دریافت را بررسی می‌کند، اطلاعات ناقص را روشن می‌کند و زمینه قابل استفاده را به تیم‌های تخصصی می‌رساند.",
+                "image_url": "/media/team/ali-rezaei.svg",
+                "order": 1
+              },
+              {
+                "block_key": "member-3",
+                "type": "card",
+                "title": "Mohammad Rezaei",
+                "subtitle": "رئیس میز املاک",
+                "body": "گفت‌وگوهای املاک، ساخت‌وساز، مصالح و استعلام قیمت را در بستر املاک هدایت می‌کند.",
+                "image_url": "/media/team/mohammad-rezaei.svg",
+                "order": 2
+              },
+              {
+                "block_key": "member-4",
+                "type": "card",
+                "title": "Reza Rezaei",
+                "subtitle": "رئیس میز تجارت و مالی",
+                "body": "درخواست‌های تجارت، حمل، انتقال ارز و امور مالی تجاری را از طریق بستر مالی مدیریت می‌کند.",
+                "image_url": "/media/team/reza-rezaei.svg",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "section_key": "contact",
+            "type": "contact",
+            "title": "تماس شرکتی و مشارکتی",
+            "summary": "برای مشارکت، گفتگوهای سرمایه گذاری یا درخواست هایی که بیش از یک واحد تجاری را شامل می شود، پیامی در سطح گروه ارسال کنید.",
+            "body": "حوزه کسب و کار، کشور، جدول زمانی، مالک تصمیم، و زبان پیگیری ترجیحی را شامل شود.",
+            "order": 5,
+            "blocks": [
+              {
+                "block_key": "email",
+                "type": "contact_row",
+                "title": "ایمیل",
+                "body": "info@rezaeiglobal.com",
+                "order": 0
+              },
+              {
+                "block_key": "phone",
+                "type": "contact_row",
+                "title": "تلفن",
+                "body": "از طریق ایمیل با ما تماس بگیرید — در ساعات کاری پاسخ می‌دهیم.",
+                "order": 1
+              },
+              {
+                "block_key": "location",
+                "type": "contact_row",
+                "title": "مکان",
+                "body": "مسقط، سلطنت عُمان",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "governance",
+            "type": "cards",
+            "title": "پاسخگویی روشن میان تیم‌ها",
+            "subtitle": "شیوه کار ما",
+            "summary": "چگونه ارتباطات را یکدست، مسیر درخواست‌ها را درست و استانداردها را میان همه تیم‌ها پایدار نگه می‌داریم.",
+            "body": "",
+            "order": 5,
+            "is_visible": true,
+            "settings": {},
+            "blocks": [
+              {
+                "block_key": "responsible-coordination",
+                "type": "card",
+                "title": "هماهنگی مسئول",
+                "body": "درخواست‌های سطح گروه ابتدا به‌عنوان تصمیم‌های مسیریابی بررسی می‌شوند، بنابراین هر درخواست به حوزه تخصصی صحیح می‌رسد.",
+                "order": 0,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              },
+              {
+                "block_key": "clear-routing",
+                "type": "card",
+                "title": "مرزهای روشن",
+                "body": "درخواست‌های مربوط به ملک، تجارت، مالی، اقامت، ویزا، ترجمه و ثبت شرکت را جدا نگه می‌داریم تا میان میزها گم نشوند.",
+                "order": 1,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              },
+              {
+                "block_key": "professional-communication",
+                "type": "card",
+                "title": "ارتباطات حرفه ای",
+                "body": "سایت هلدینگ پیام‌ها را برای شرکا، مشتریان و بازدیدکنندگان بین‌المللی یکدست، مختصر و مفید نگه می‌دارد.",
+                "order": 2,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              },
+              {
+                "block_key": "future-ready",
+                "type": "card",
+                "title": "پاسخگویی ساختاریافته",
+                "body": "هر واحد کسب‌وکار مالک حوزه خدمات خود است، در حالی که شرکت هلدینگ نظارت، انضباط مسیریابی و ارتباط یکپارچه با مشتری را حفظ می‌کند.",
+                "order": 3,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              }
+            ]
+          },
+          {
+            "section_key": "explore-group",
+            "type": "links",
+            "title": "از سطح گروه شروع کنید، سپس به تیم تخصصی مناسب برسید",
+            "subtitle": "آشنایی با گروه",
+            "summary": "این بخش نقطه ورود رسمی به REZAEI GLOBAL LLC است. در اینجا مشخص می‌شود هر درخواست، همکاری یا موضوع چندخدمتی چگونه بررسی می‌شود و سپس به تیمی ارجاع داده می‌شود که برای پاسخ‌گویی دقیق‌تر آماده است.",
+            "body": "",
+            "order": 8,
+            "is_visible": true,
+            "settings": {},
+            "blocks": [
+              {
+                "block_key": "holding-company",
+                "type": "card",
+                "title": "شرکت هلدینگ",
+                "body": "هویت شرکتی، هماهنگی سطح گروه، مشارکت‌های استراتژیک و درخواست‌هایی که بیش از یک واحد تجاری را درگیر می‌کنند ابتدا در سطح هلدینگ بررسی و سپس به میز تخصصی مناسب هدایت می‌شوند.",
+                "order": 0,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              },
+              {
+                "block_key": "specialist-teams",
+                "type": "card",
+                "title": "تیم‌های تخصصی",
+                "body": "درخواست‌های مربوط به املاک، مالی و تجارت، اقامت، ویزا، ترجمه و ثبت شرکت توسط تیم‌هایی پیگیری می‌شوند که برای هر حوزه زمینه و تمرکز لازم را دارند.",
+                "order": 1,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              },
+              {
+                "block_key": "request-routing",
+                "type": "card",
+                "title": "مسیریابی درخواست",
+                "body": "اگر یک درخواست چند حوزه یا چند بازار را پوشش دهد، تیم هلدینگ ابتدا محدوده موضوع را روشن می‌کند، واحد مسئول را مشخص می‌سازد و مسیر ارتباطی را منظم نگه می‌دارد.",
+                "order": 2,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/about",
+        "title": "بررسی اجمالی شرکت",
+        "locale": "fa",
+        "page_type": "detail",
+        "status": "published",
+        "seo": {
+          "title": "بررسی اجمالی شرکت | REZAEI GLOBAL LLC",
+          "description": "درباره REZAEI GLOBAL LLC، شرکت هلدینگ پشت پلت فرم های خدمات متصل.",
+          "keywords": "نمای کلی شرکت، شرکت هلدینگ، REZAEI GLOBAL LLC",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "hero",
+            "type": "hero",
+            "title": "درباره شرکت هلدینگ",
+            "summary": "مشخصات شرکت، تمرکز تجاری، مناطق عملیاتی و نقش شرکت هلدینگ در پشت هر پلت فرم خدمات.",
+            "order": 0
+          },
+          {
+            "section_key": "overview",
+            "type": "cards",
+            "title": "پروفایل گروه",
+            "body": "این شرکت به عنوان یک هویت تجاری مرکزی به جای صفحه فرود تک سرویسی عمل می کند.",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "brand",
+                "type": "card",
+                "title": "وضوح نام تجاری",
+                "body": "یک هویت شرکتی از هر واحد تجاری پشتیبانی می کند.",
+                "order": 0
+              },
+              {
+                "block_key": "presence",
+                "type": "card",
+                "title": "حضور منطقه ای",
+                "body": "این گروه گفتگوهای تجاری بین المللی و منطقه ای را ارائه می دهد.",
+                "order": 1
+              },
+              {
+                "block_key": "categories",
+                "type": "card",
+                "title": "دسته بندی خدمات",
+                "body": "خطوط کسب و کار جداگانه تحت یک نام تجاری عامل متصل می شوند.",
+                "order": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/governance",
+        "title": "حاکمیت",
+        "locale": "fa",
+        "page_type": "detail",
+        "status": "published",
+        "seo": {
+          "title": "حاکمیت | REZAEI GLOBAL LLC",
+          "description": "استانداردهای عملیاتی برای ارتباطات، استانداردهای برند و مسیریابی درخواست را گروه بندی کنید.",
+          "keywords": "حاکمیت، استانداردهای عملیاتی، مسیریابی مشتری",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "hero",
+            "type": "hero",
+            "title": "استانداردهای عملیاتی گروه",
+            "summary": "چگونه شرکت هلدینگ ارتباطات، استانداردهای برند و مسیریابی درخواست را در هر واحد تجاری ثابت نگه می دارد.",
+            "order": 0
+          },
+          {
+            "section_key": "standards",
+            "type": "process",
+            "title": "مدل عملیاتی مسئول",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "brand",
+                "type": "process_step",
+                "title": "استانداردهای برند",
+                "body": "یک هویت شرکتی را در سراسر گروه حفظ کنید.",
+                "order": 0
+              },
+              {
+                "block_key": "routing",
+                "type": "process_step",
+                "title": "درخواست مسیریابی",
+                "body": "هر درخواست را به واحد تجاری مناسب منتقل کنید.",
+                "order": 1
+              },
+              {
+                "block_key": "follow-up",
+                "type": "process_step",
+                "title": "وضوح پیگیری",
+                "body": "ارتباط مستقیم و خاص خدمات را حفظ کنید.",
+                "order": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/contact",
+        "title": "تماس",
+        "locale": "fa",
+        "page_type": "contact",
+        "status": "published",
+        "seo": {
+          "title": "تماس | REZAEI GLOBAL LLC",
+          "description": "درخواست شرکت یا مشارکت را به REZAEI GLOBAL LLC ارسال کنید.",
+          "keywords": "تماس، پرس و جو شرکت، مشارکت",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "hero",
+            "type": "hero",
+            "title": "استعلام شرکتی",
+            "summary": "یک درخواست در سطح گروه ارسال کنید و سرنخ را به منطقه تجاری صحیح هدایت کنید.",
+            "order": 0
+          },
+          {
+            "section_key": "contact",
+            "type": "contact",
+            "title": "یک درخواست در سطح گروه شروع کنید",
+            "body": "منطقه خدمات، کشور، جدول زمانی و روش تماس ترجیحی را در نظر بگیرید.",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "email",
+                "type": "contact_row",
+                "title": "ایمیل",
+                "body": "info@rezaeiglobal.com",
+                "order": 0
+              },
+              {
+                "block_key": "phone",
+                "type": "contact_row",
+                "title": "تلفن",
+                "body": "از طریق ایمیل با ما تماس بگیرید — در ساعات کاری پاسخ می‌دهیم.",
+                "order": 1
+              },
+              {
+                "block_key": "location",
+                "type": "contact_row",
+                "title": "مکان",
+                "body": "مسقط، سلطنت عُمان",
+                "order": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/faq",
+        "title": "سوالات متداول",
+        "locale": "fa",
+        "page_type": "support",
+        "status": "published",
+        "seo": {
+          "title": "سوالات متداول | REZAEI GLOBAL LLC",
+          "description": "سوالات متداول در مورد وب سایت های REZAEI GLOBAL LLC و رسیدگی به درخواست.",
+          "keywords": "سوالات متداول، سوالات، پشتیبانی",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "support",
+            "type": "cards",
+            "title": "سوالات متداول",
+            "summary": "پاسخ هایی در مورد محدوده خدمات، رسیدگی به درخواست، محتوای چند زبانه، استقرار زیر دامنه، و مراحل بعدی.",
+            "order": 0,
+            "blocks": [
+              {
+                "block_key": "scope",
+                "type": "card",
+                "title": "محدوده خدمات",
+                "body": "پاسخ‌های شفاف اطلاعات عمومی وب‌سایت را از خدماتی که نیاز به بررسی مستقیم دارند جدا می‌کند.",
+                "order": 0
+              },
+              {
+                "block_key": "handling",
+                "type": "card",
+                "title": "رسیدگی به استعلام",
+                "body": "فرم‌ها جزئیات اصلی مورد نیاز برای درک هدف و دسته خدمات بازدیدکننده را جمع‌آوری می‌کنند.",
+                "order": 1
+              },
+              {
+                "block_key": "next",
+                "type": "card",
+                "title": "مراحل بعدی",
+                "body": "بازدیدکنندگان به جای اینکه حدس بزنند که کدام منطقه تجاری باید درخواست را دریافت کند، به سمت یک مسیر تماس هدایت می شوند.",
+                "order": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/privacy",
+        "title": "حریم خصوصی",
+        "locale": "fa",
+        "page_type": "support",
+        "status": "published",
+        "seo": {
+          "title": "حریم خصوصی | REZAEI GLOBAL LLC",
+          "description": "حریم خصوصی و مدیریت داده ها برای فرم های استعلام و جزئیات تماس.",
+          "keywords": "حریم خصوصی، مدیریت داده ها، پرسش ها",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "privacy",
+            "type": "cards",
+            "title": "حریم خصوصی و مدیریت داده ها",
+            "summary": "اطلاعات مربوط به داده های فرم استعلام، جزئیات تماس، مدیریت سرنخ و پیگیری مسئولانه.",
+            "order": 0,
+            "blocks": [
+              {
+                "block_key": "inquiry-data",
+                "type": "card",
+                "title": "داده های استعلام",
+                "body": "اطلاعات ارسال شده برای درک درخواست و مسیریابی آن به منطقه تجاری مناسب استفاده می شود.",
+                "order": 0
+              },
+              {
+                "block_key": "contact-details",
+                "type": "card",
+                "title": "جزئیات تماس",
+                "body": "فیلدهای ایمیل و تلفن به تیم کمک می کند تا با شرایط و فوریت پاسخ دهد.",
+                "order": 1
+              },
+              {
+                "block_key": "choice",
+                "type": "card",
+                "title": "انتخاب بازدید کننده",
+                "body": "بازدیدکنندگان آنچه را که ارسال می کنند کنترل می کنند و می توانند اولین پیام را مختصر نگه دارند.",
+                "order": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/terms",
+        "title": "شرایط",
+        "locale": "fa",
+        "page_type": "support",
+        "status": "published",
+        "seo": {
+          "title": "شرایط | REZAEI GLOBAL LLC",
+          "description": "شرایط وب سایت برای اطلاعات خدمات، ارسال درخواست، استفاده از محتوا، و استقرار.",
+          "keywords": "شرایط، شرایط وب سایت، ارسال درخواست",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "terms",
+            "type": "cards",
+            "title": "شرایط وب سایت",
+            "summary": "شرایط عمومی وب سایت برای اطلاعات خدمات، ارسال درخواست، استفاده از محتوا، و استقرار مستقیم در آینده.",
+            "order": 0,
+            "blocks": [
+              {
+                "block_key": "information",
+                "type": "card",
+                "title": "اطلاعات وب سایت",
+                "body": "توضیحات خدمات برای جهت دهی ارائه شده است و جایگزین بررسی مستقیم یک مورد خاص نمی شود.",
+                "order": 0
+              },
+              {
+                "block_key": "submission",
+                "type": "card",
+                "title": "ارسال استعلام",
+                "body": "فرم ها یک مکالمه را شروع می کنند و به خودی خود یک تعامل تایید شده ایجاد نمی کنند.",
+                "order": 1
+              },
+              {
+                "block_key": "content",
+                "type": "card",
+                "title": "استفاده از محتوا",
+                "body": "نام تجاری، متن و رسانه بخشی از تجربه وب سایت REZAEI GLOBAL LLC است.",
+                "order": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/",
+        "title": "ثلاثة فرق متخصصة ونقطة بداية واحدة",
+        "locale": "ar",
+        "page_type": "home",
+        "status": "published",
+        "seo": {
+          "title": "REZAEI GLOBAL LLC | فرق العقارات والتجارة والإقامة",
+          "description": "تواصل مع الفريق المناسب في رضوي غلوبال للعقارات أو التجارة أو الإقامة أو المستندات في عُمان وتركيا وإيران والأسواق المجاورة.",
+          "keywords": "رضوي غلوبال، عقارات عُمان، تجارة وتمويل، إقامة وتأشيرة، خدمات مستندات، مسقط",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "home",
+            "type": "hero",
+            "title": "REZAEI GLOBAL LLC",
+            "subtitle": "مجموعة واحدة، ثلاثة فرق متخصصة",
+            "summary": "نساعد عملاءنا في عُمان والأسواق المجاورة على الوصول إلى الفريق المناسب في العقارات أو التجارة أو الإقامة أو المستندات، دون التنقل بين عدة مواقع.",
+            "body": "اختر الفريق الذي يناسب طلبك. أرسل رسالة قصيرة. سنرد عليك خلال ساعات العمل.",
+            "order": 0,
+            "settings": {
+              "video": "/media/hero/main-handshake-hero-20260701.mp4",
+              "poster": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=80"
+            },
+            "blocks": [
+              {
+                "block_key": "real-estate-link",
+                "type": "link",
+                "title": "العقارات والبناء والمواد",
+                "body": "العقارات ومشاريع البناء ومواد البناء وتوريد السلع الصناعية.",
+                "href": "https://real-estate.example.com",
+                "order": 0
+              },
+              {
+                "block_key": "finance-link",
+                "type": "link",
+                "title": "الاستيراد والتصدير وتحويل العملات",
+                "body": "خدمات التجارة وتنسيق الشحن وتحويل العملات وصرف العملات الأجنبية.",
+                "href": "https://finance.example.com",
+                "order": 1
+              },
+              {
+                "block_key": "visa-link",
+                "type": "link",
+                "title": "الإقامة والتأشيرات والترجمة",
+                "body": "الإقامة والتأشيرة وتأسيس الشركات وتصديق المستندات والتوثيق القانوني والترجمة الرسمية.",
+                "href": "https://visa.example.com",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "company",
+            "type": "rich_text",
+            "title": "حول REZAEI GLOBAL LLC",
+            "summary": "من نحن، أين نعمل، وكيف تم تنظيم المجموعة.",
+            "body": "رضوي غلوبال هي الشركة الأم لثلاثة فرق متخصصة. نحافظ على وحدة العلامة والتواصل ومسار الطلبات حتى يصل كل استفسار إلى الأشخاص المناسبين دون تأخير.",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "corporate-identity",
+                "type": "card",
+                "title": "علامة واحدة",
+                "body": "خلف كل فريق تتعامل معه: اسم واحد وهوية واحدة.",
+                "order": 0
+              },
+              {
+                "block_key": "regional-context",
+                "type": "card",
+                "title": "تركيز إقليمي",
+                "body": "نعمل يوميًا في عُمان وتركيا وإيران والأسواق العربية المجاورة.",
+                "order": 1
+              },
+              {
+                "block_key": "service-routing",
+                "type": "card",
+                "title": "الفريق الصحيح بسرعة",
+                "body": "أرسل رسالة واحدة على مستوى المجموعة، ونحن نوجهها إلى المكتب القادر على المساعدة.",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "business-units",
+            "type": "services",
+            "title": "ثلاثة فرق ونقطة بداية واحدة",
+            "summary": "اختر الفريق الذي يناسب طلبك: العقارات، التمويل والتجارة، أو الإقامة والمستندات.",
+            "order": 2,
+            "blocks": [
+              {
+                "block_key": "real-estate",
+                "type": "service_item",
+                "title": "العقارات",
+                "subtitle": "العقارات والمشاريع والبناء",
+                "body": "لطلبات العقارات والبناء والاستثمار ومصادر المشاريع والمواد وطلبات عروض الأسعار.",
+                "href": "https://real-estate.example.com",
+                "order": 0
+              },
+              {
+                "block_key": "finance",
+                "type": "service_item",
+                "title": "التمويل والتجارة",
+                "subtitle": "التجارة، المدفوعات، FX",
+                "body": "للاستيراد والتصدير ومستندات الشحن والتنسيق التجاري وتحويل العملات وFX وتوقيت الدفع.",
+                "href": "https://finance.example.com",
+                "order": 1
+              },
+              {
+                "block_key": "visa",
+                "type": "service_item",
+                "title": "الإقامة والتأشيرات والترجمة",
+                "subtitle": "التنقل والمستندات والإعداد",
+                "body": "بالنسبة للإقامة والتأشيرة والترجمة والتصديق والتصديق ومسارات مستندات إعداد الشركة.",
+                "href": "https://visa.example.com",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "group-structure",
+            "type": "cards",
+            "title": "كيف تتشكل المجموعة",
+            "summary": "رضوي غلوبال هي الاسم الأم، أما العمل اليومي فتتولاه الفرق الثلاثة المتخصصة.",
+            "order": 3,
+            "blocks": [
+              {
+                "block_key": "parent-company",
+                "type": "card",
+                "title": "الشركة الأم",
+                "body": "رضوي غلوبال ش.ذ.م.م هي الشركة المسجلة خلف المجموعة، وهي نقطة الاتصال للشراكات.",
+                "order": 0
+              },
+              {
+                "block_key": "governance",
+                "type": "card",
+                "title": "كيف ننسق",
+                "body": "نحافظ على وضوح مسار الطلبات والتواصل ونطاق الخدمة بين الفرق، حتى لا يضيع شيء بين المكاتب.",
+                "order": 1
+              },
+              {
+                "block_key": "specialist-units",
+                "type": "card",
+                "title": "ثلاثة فرق متخصصة",
+                "body": "العقارات، التمويل والتجارة، والإقامة والتأشيرة، لكل فريق مكتبه ومصطلحاته ومساره الخاص.",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "team",
+            "type": "cards",
+            "subtitle": "القيادة",
+            "title": "الأشخاص الذين يضمنون وصول طلبك إلى المكان الصحيح",
+            "summary": "فريق قيادة صغير يتولى المحادثات على مستوى المجموعة ويربط العملاء بالمكتب المناسب.",
+            "order": 4,
+            "blocks": [
+              {
+                "block_key": "member-1",
+                "type": "card",
+                "title": "Hosein Rezaei",
+                "subtitle": "المدير العام للمجموعة",
+                "body": "يحدد اتجاه المجموعة ويشرف على المحادثات المؤسسية ويوجه كل طلب إلى وحدة الأعمال المناسبة.",
+                "image_url": "/media/team/hosein-rezaei.svg",
+                "order": 0
+              },
+              {
+                "block_key": "member-2",
+                "type": "card",
+                "title": "Ali Rezaei",
+                "subtitle": "مدير العمليات",
+                "body": "يراجع جودة الاستقبال ويوضح المعلومات الناقصة ويضمن وصول سياق قابل للاستخدام إلى الفرق المتخصصة.",
+                "image_url": "/media/team/ali-rezaei.svg",
+                "order": 1
+              },
+              {
+                "block_key": "member-3",
+                "type": "card",
+                "title": "Mohammad Rezaei",
+                "subtitle": "قائد مكتب العقارات",
+                "body": "يقود محادثات العقارات والبناء والمواد وعروض الأسعار عبر منصة العقارات.",
+                "image_url": "/media/team/mohammad-rezaei.svg",
+                "order": 2
+              },
+              {
+                "block_key": "member-4",
+                "type": "card",
+                "title": "Reza Rezaei",
+                "subtitle": "قائد مكتب التجارة والتمويل",
+                "body": "يتولى طلبات التجارة والشحن وتحويل العملات والتمويل التجاري عبر منصة التمويل.",
+                "image_url": "/media/team/reza-rezaei.svg",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "section_key": "contact",
+            "type": "contact",
+            "title": "الاتصال بالشركة والشراكة",
+            "summary": "أرسل رسالة على مستوى المجموعة للشراكات أو محادثات الاستثمار أو الطلبات التي تشمل أكثر من وحدة عمل واحدة.",
+            "body": "قم بتضمين منطقة العمل والبلد والجدول الزمني وصاحب القرار ولغة المتابعة المفضلة.",
+            "order": 5,
+            "blocks": [
+              {
+                "block_key": "email",
+                "type": "contact_row",
+                "title": "بريد إلكتروني",
+                "body": "info@rezaeiglobal.com",
+                "order": 0
+              },
+              {
+                "block_key": "phone",
+                "type": "contact_row",
+                "title": "هاتف",
+                "body": "تواصل معنا عبر البريد الإلكتروني — نرد خلال ساعات العمل.",
+                "order": 1
+              },
+              {
+                "block_key": "location",
+                "type": "contact_row",
+                "title": "موقع",
+                "body": "مسقط، سلطنة عُمان",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "governance",
+            "type": "cards",
+            "title": "مساءلة واضحة بين الفرق",
+            "subtitle": "أسلوب عملنا",
+            "summary": "كيف نحافظ على اتساق التواصل، وعلى صحة توجيه الطلبات، وعلى ثبات المعايير عبر كل فريق.",
+            "body": "",
+            "order": 5,
+            "is_visible": true,
+            "settings": {},
+            "blocks": [
+              {
+                "block_key": "responsible-coordination",
+                "type": "card",
+                "title": "التنسيق المسؤول",
+                "body": "يتم التعامل مع الاستفسارات على مستوى المجموعة كقرارات توجيه أولاً، بحيث يصل كل طلب إلى مجال التخصص الصحيح.",
+                "order": 0,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              },
+              {
+                "block_key": "clear-routing",
+                "type": "card",
+                "title": "حدود واضحة",
+                "body": "نفصل بين طلبات العقار والتجارة والتمويل والإقامة والتأشيرة والترجمة وتأسيس الشركات، حتى لا تضيع الطلبات بين المكاتب.",
+                "order": 1,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              },
+              {
+                "block_key": "professional-communication",
+                "type": "card",
+                "title": "تواصل بلغة واضحة",
+                "body": "نكتب بإيجاز وبصيغة عملية، باللغة التي تفضلها.",
+                "order": 2,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              },
+              {
+                "block_key": "future-ready",
+                "type": "card",
+                "title": "مساءلة منظمة",
+                "body": "كل وحدة أعمال تملك نطاق خدماتها بينما تحافظ الشركة القابضة على الإشراف وانضباط التوجيه وتواصل العملاء المتسق.",
+                "order": 3,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              }
+            ]
+          },
+          {
+            "section_key": "explore-group",
+            "type": "links",
+            "title": "ابدأ من مستوى المجموعة، ثم انتقل إلى الفريق المتخصص المناسب",
+            "subtitle": "تعرّف على المجموعة",
+            "summary": "تمثل هذه الصفحة نقطة الدخول الرسمية إلى REZAEI GLOBAL LLC. فهي توضّح كيفية تقييم الاستفسارات والشراكات والطلبات متعددة الخدمات قبل توجيه كل محادثة إلى الفريق الأكثر قدرة على متابعتها.",
+            "body": "",
+            "order": 8,
+            "is_visible": true,
+            "settings": {},
+            "blocks": [
+              {
+                "block_key": "holding-company",
+                "type": "card",
+                "title": "شركة قابضة",
+                "body": "تتم مراجعة الهوية المؤسسية والتنسيق على مستوى المجموعة والشراكات الاستراتيجية والطلبات التي تشمل أكثر من وحدة عمل، ثم توجيهها إلى المكتب المتخصص المناسب.",
+                "order": 0,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              },
+              {
+                "block_key": "specialist-teams",
+                "type": "card",
+                "title": "فرق متخصصة",
+                "body": "تتولى فرق مركّزة طلبات العقارات والتمويل والتجارة والإقامة والتأشيرات والترجمة وتأسيس الشركات مع السياق اللازم للمتابعة الدقيقة.",
+                "order": 1,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              },
+              {
+                "block_key": "request-routing",
+                "type": "card",
+                "title": "توجيه الطلبات",
+                "body": "عندما يمتد الطلب عبر أكثر من مجال أو سوق، يوضح فريق الشركة القابضة نطاقه، يحدد وحدة العمل المسؤولة، ويحافظ على مسار تواصل واضح.",
+                "order": 2,
+                "subtitle": "",
+                "href": "",
+                "icon": "",
+                "image_url": "",
+                "video_url": "",
+                "settings": {},
+                "is_visible": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/about",
+        "title": "نظرة عامة على الشركة",
+        "locale": "ar",
+        "page_type": "detail",
+        "status": "published",
+        "seo": {
+          "title": "نظرة عامة على الشركة | REZAEI GLOBAL LLC",
+          "description": "حول REZAEI GLOBAL LLC، الشركة القابضة التي تقف وراء منصات الخدمة المتصلة.",
+          "keywords": "نظرة عامة على الشركة، الشركة القابضة، REZAEI GLOBAL LLC",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "hero",
+            "type": "hero",
+            "title": "عن الشركة القابضة",
+            "summary": "ملف تعريف الشركة والتركيز على الأعمال ومناطق التشغيل ودور الشركة القابضة التي تقف وراء كل منصة خدمة.",
+            "order": 0
+          },
+          {
+            "section_key": "overview",
+            "type": "cards",
+            "title": "ملف تعريف المجموعة",
+            "body": "تعمل الشركة كهوية تجارية مركزية بدلاً من كونها صفحة مقصودة ذات خدمة واحدة.",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "brand",
+                "type": "card",
+                "title": "وضوح العلامة التجارية",
+                "body": "هوية مؤسسية واحدة تدعم كل وحدة عمل.",
+                "order": 0
+              },
+              {
+                "block_key": "presence",
+                "type": "card",
+                "title": "التواجد الإقليمي",
+                "body": "تخدم المجموعة المحادثات التجارية الدولية والإقليمية.",
+                "order": 1
+              },
+              {
+                "block_key": "categories",
+                "type": "card",
+                "title": "فئات الخدمة",
+                "body": "ترتبط خطوط الأعمال المنفصلة تحت علامة تجارية واحدة.",
+                "order": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/governance",
+        "title": "الحوكمة",
+        "locale": "ar",
+        "page_type": "detail",
+        "status": "published",
+        "seo": {
+          "title": "الحكم | REZAEI GLOBAL LLC",
+          "description": "معايير تشغيل المجموعة للاتصالات ومعايير العلامة التجارية وتوجيه الطلب.",
+          "keywords": "الحوكمة ومعايير التشغيل وتوجيه العملاء",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "hero",
+            "type": "hero",
+            "title": "معايير تشغيل المجموعة",
+            "summary": "كيف تحافظ الشركة القابضة على التواصل ومعايير العلامة التجارية وتوجيه الطلبات بشكل متسق عبر كل وحدة عمل.",
+            "order": 0
+          },
+          {
+            "section_key": "standards",
+            "type": "process",
+            "title": "نموذج التشغيل المسؤول",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "brand",
+                "type": "process_step",
+                "title": "معايير العلامة التجارية",
+                "body": "الحفاظ على هوية مؤسسية واحدة عبر المجموعة.",
+                "order": 0
+              },
+              {
+                "block_key": "routing",
+                "type": "process_step",
+                "title": "طلب التوجيه",
+                "body": "انقل كل استفسار إلى وحدة العمل المناسبة.",
+                "order": 1
+              },
+              {
+                "block_key": "follow-up",
+                "type": "process_step",
+                "title": "متابعة الوضوح",
+                "body": "حافظ على التواصل المباشر والخاص بالخدمة.",
+                "order": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/contact",
+        "title": "تواصل",
+        "locale": "ar",
+        "page_type": "contact",
+        "status": "published",
+        "seo": {
+          "title": "الاتصال | REZAEI GLOBAL LLC",
+          "description": "أرسل استفسارًا عن الشركة أو الشراكة إلى REZAEI GLOBAL LLC.",
+          "keywords": "الاتصال، استفسار الشركات، الشراكة",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "hero",
+            "type": "hero",
+            "title": "استفسار الشركات",
+            "summary": "أرسل طلبًا على مستوى المجموعة وقم بتوجيه العميل المتوقع إلى منطقة العمل الصحيحة.",
+            "order": 0
+          },
+          {
+            "section_key": "contact",
+            "type": "contact",
+            "title": "بدء طلب على مستوى المجموعة",
+            "body": "قم بتضمين منطقة الخدمة والبلد والجدول الزمني وطريقة الاتصال المفضلة.",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "email",
+                "type": "contact_row",
+                "title": "بريد إلكتروني",
+                "body": "info@rezaeiglobal.com",
+                "order": 0
+              },
+              {
+                "block_key": "phone",
+                "type": "contact_row",
+                "title": "هاتف",
+                "body": "تواصل معنا عبر البريد الإلكتروني — نرد خلال ساعات العمل.",
+                "order": 1
+              },
+              {
+                "block_key": "location",
+                "type": "contact_row",
+                "title": "موقع",
+                "body": "مسقط، سلطنة عُمان",
+                "order": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/faq",
+        "title": "الأسئلة الشائعة",
+        "locale": "ar",
+        "page_type": "support",
+        "status": "published",
+        "seo": {
+          "title": "الأسئلة الشائعة | REZAEI GLOBAL LLC",
+          "description": "الأسئلة المتداولة حول مواقع REZAEI GLOBAL LLC والتعامل مع الاستفسارات.",
+          "keywords": "الأسئلة الشائعة، الأسئلة، الدعم",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "support",
+            "type": "cards",
+            "title": "الأسئلة المتداولة",
+            "summary": "إجابات حول نطاق الخدمة ومعالجة الاستفسارات والمحتوى متعدد اللغات ونشر النطاق الفرعي والخطوات التالية.",
+            "order": 0,
+            "blocks": [
+              {
+                "block_key": "scope",
+                "type": "card",
+                "title": "نطاق الخدمة",
+                "body": "تفصل الإجابات الواضحة المعلومات العامة لموقع الويب عن الخدمات التي تتطلب مراجعة مباشرة.",
+                "order": 0
+              },
+              {
+                "block_key": "handling",
+                "type": "card",
+                "title": "التعامل مع الاستفسار",
+                "body": "تجمع النماذج التفاصيل الأساسية اللازمة لفهم هدف الزائر وفئة الخدمة.",
+                "order": 1
+              },
+              {
+                "block_key": "next",
+                "type": "card",
+                "title": "الخطوات التالية",
+                "body": "يتم توجيه الزائرين نحو مسار الاتصال بدلاً من ترك التخمين في منطقة العمل التي يجب أن تتلقى الطلب.",
+                "order": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/privacy",
+        "title": "الخصوصية",
+        "locale": "ar",
+        "page_type": "support",
+        "status": "published",
+        "seo": {
+          "title": "الخصوصية | REZAEI GLOBAL LLC",
+          "description": "الخصوصية ومعالجة البيانات لنماذج الاستفسار وتفاصيل الاتصال.",
+          "keywords": "الخصوصية ومعالجة البيانات والاستفسارات",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "privacy",
+            "type": "cards",
+            "title": "الخصوصية ومعالجة البيانات",
+            "summary": "معلومات حول بيانات نموذج الاستفسار وتفاصيل الاتصال والتعامل مع العملاء المحتملين والمتابعة المسؤولة.",
+            "order": 0,
+            "blocks": [
+              {
+                "block_key": "inquiry-data",
+                "type": "card",
+                "title": "بيانات الاستفسار",
+                "body": "يتم استخدام المعلومات المقدمة لفهم الطلب وتوجيهه إلى منطقة العمل المناسبة.",
+                "order": 0
+              },
+              {
+                "block_key": "contact-details",
+                "type": "card",
+                "title": "تفاصيل الاتصال",
+                "body": "تساعد حقول البريد الإلكتروني والهاتف الفريق على الاستجابة بالسياق والإلحاح.",
+                "order": 1
+              },
+              {
+                "block_key": "choice",
+                "type": "card",
+                "title": "اختيار الزائر",
+                "body": "يتحكم الزائرون في ما يرسلونه ويمكنهم إبقاء الرسالة الأولى موجزة.",
+                "order": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/terms",
+        "title": "الشروط",
+        "locale": "ar",
+        "page_type": "support",
+        "status": "published",
+        "seo": {
+          "title": "المصطلحات | REZAEI GLOBAL LLC",
+          "description": "شروط موقع الويب الخاصة بمعلومات الخدمة وتقديم الاستفسار واستخدام المحتوى والنشر.",
+          "keywords": "الشروط، شروط الموقع، تقديم الاستفسار",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "terms",
+            "type": "cards",
+            "title": "شروط الموقع",
+            "summary": "شروط الموقع العامة لمعلومات الخدمة، وتقديم الاستفسار، واستخدام المحتوى، والنشر المباشر في المستقبل.",
+            "order": 0,
+            "blocks": [
+              {
+                "block_key": "information",
+                "type": "card",
+                "title": "معلومات الموقع",
+                "body": "يتم تقديم أوصاف الخدمة للتوجيه ولا تحل محل المراجعة المباشرة لحالة معينة.",
+                "order": 0
+              },
+              {
+                "block_key": "submission",
+                "type": "card",
+                "title": "تقديم الاستفسار",
+                "body": "تبدأ النماذج محادثة ولا تنشئ بحد ذاتها مشاركة مؤكدة.",
+                "order": 1
+              },
+              {
+                "block_key": "content",
+                "type": "card",
+                "title": "استخدام المحتوى",
+                "body": "تعد العلامة التجارية والنص والوسائط جزءًا من تجربة موقع REZAEI GLOBAL LLC على الويب.",
+                "order": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/how-we-work",
+        "title": "How We Work",
+        "locale": "en",
+        "page_type": "detail",
+        "status": "published",
+        "seo": {
+          "title": "How We Work | REZAEI GLOBAL LLC",
+          "description": "How REZAEI GLOBAL LLC reviews, classifies, routes, and follows up on requests across the group.",
+          "keywords": "how we work, request routing, REZAEI GLOBAL LLC, group process",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "hero",
+            "type": "hero",
+            "subtitle": "How We Work",
+            "title": "A clear path from first contact to specialist delivery",
+            "summary": "REZAEI GLOBAL LLC reviews each request first, identifies the right business context, and then routes the conversation to the team that can handle it with the right documents, timing, and follow-up.",
+            "order": 0,
+            "blocks": []
+          },
+          {
+            "section_key": "units",
+            "type": "cards",
+            "subtitle": "Request Handling",
+            "title": "What happens before a request is assigned.",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "unit-1",
+                "type": "card",
+                "title": "Intake quality check",
+                "subtitle": "Message · Context · Contact",
+                "body": "Before assigning a request, we check whether the first message includes enough business context for a useful response instead of a generic reply.\n---\nIdentify the decision owner\nConfirm country and preferred language\nCapture timeline and urgency\nSeparate service requests from introductions",
+                "order": 0
+              },
+              {
+                "block_key": "unit-2",
+                "type": "card",
+                "title": "Information gap review",
+                "subtitle": "Details · Evidence · Risk",
+                "body": "The holding team looks for missing details that would slow the specialist team down, then prepares a cleaner handoff path.\n---\nList missing documents or figures\nCheck whether more than one unit is involved\nFlag unclear commercial assumptions\nDefine the first useful follow-up question",
+                "order": 1
+              },
+              {
+                "block_key": "unit-3",
+                "type": "card",
+                "title": "Ownership handoff",
+                "subtitle": "Owner · Next Step · Follow-up",
+                "body": "Once the request is understandable, it is assigned with a clear owner, practical next step, and enough background to avoid restarting the conversation.\n---\nChoose the responsible team\nShare the request summary\nSet the first response direction\nKeep group-level visibility when needed",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "flow",
+            "type": "process",
+            "subtitle": "Working Flow",
+            "title": "How we move a request from message to next step.",
+            "order": 2,
+            "blocks": [
+              {
+                "block_key": "flow-1",
+                "type": "process_step",
+                "title": "Receive the request",
+                "body": "We start with the visitor's message, service area, country, timeline, and preferred follow-up language.",
+                "order": 0
+              },
+              {
+                "block_key": "flow-2",
+                "type": "process_step",
+                "title": "Clarify the context",
+                "body": "The holding team checks what information is missing and whether the request is simple, specialist, or multi-unit.",
+                "order": 1
+              },
+              {
+                "block_key": "flow-3",
+                "type": "process_step",
+                "title": "Choose the owner",
+                "body": "The request is assigned to the platform that owns the service category and can respond with practical next steps.",
+                "order": 2
+              },
+              {
+                "block_key": "flow-4",
+                "type": "process_step",
+                "title": "Continue with specialists",
+                "body": "The specialist team takes over with the right document list, commercial context, quotation path, or coordination workflow.",
+                "order": 3
+              },
+              {
+                "block_key": "flow-5",
+                "type": "process_step",
+                "title": "Keep follow-up clear",
+                "body": "The conversation continues with one responsible path, while the holding stays available when more than one unit is involved.",
+                "order": 4
+              }
+            ]
+          },
+          {
+            "section_key": "holding",
+            "type": "cards",
+            "subtitle": "Operating Standards",
+            "title": "What keeps the work clear.",
+            "order": 3,
+            "blocks": [
+              {
+                "block_key": "holding-1",
+                "type": "card",
+                "title": "Clear Intake",
+                "body": "Every request starts with enough context to understand the goal, market, documents, timeline, and preferred communication path.",
+                "order": 0
+              },
+              {
+                "block_key": "holding-2",
+                "type": "card",
+                "title": "Responsible Routing",
+                "body": "The holding team avoids vague handoffs by assigning each inquiry to the team that owns the service category.",
+                "order": 1
+              },
+              {
+                "block_key": "holding-3",
+                "type": "card",
+                "title": "Specialist Follow-Up",
+                "body": "After routing, the relevant platform continues with service-specific questions, evidence, quotation details, or document steps.",
+                "order": 2
+              },
+              {
+                "block_key": "holding-4",
+                "type": "card",
+                "title": "Multi-Unit Coordination",
+                "body": "When one request touches more than one platform, the holding keeps the conversation organized instead of splitting responsibility.",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "section_key": "cta",
+            "type": "cta",
+            "subtitle": "Start With Context",
+            "title": "Send the request with enough detail to route it well.",
+            "summary": "Include the service area, country, timeline, documents or quantities, and the best way to follow up. The holding team will direct it to the right path.",
+            "order": 4,
+            "blocks": [
+              {
+                "block_key": "cta-button",
+                "type": "button",
+                "title": "Send Your Request",
+                "href": "/contact",
+                "order": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/how-we-work",
+        "title": "Nasıl Çalışıyoruz",
+        "locale": "tr",
+        "page_type": "detail",
+        "status": "published",
+        "seo": {
+          "title": "Nasıl Çalışıyoruz | REZAEI GLOBAL LLC",
+          "description": "REZAEI GLOBAL LLC'nin talepleri nasıl incelediğini, sınıflandırdığını, yönlendirdiğini ve takip ettiğini açıklar.",
+          "keywords": "how we work, request routing, REZAEI GLOBAL LLC, group process",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "hero",
+            "type": "hero",
+            "subtitle": "Nasıl Çalışıyoruz",
+            "title": "İlk temastan uzman teslimatına kadar net bir yol",
+            "summary": "REZAEI GLOBAL LLC her talebi önce inceler, doğru iş bağlamını belirler ve konuşmayı doğru belgeler, zamanlama ve takip ile yönetebilecek ekibe yönlendirir.",
+            "order": 0,
+            "blocks": []
+          },
+          {
+            "section_key": "units",
+            "type": "cards",
+            "subtitle": "Talep Yönetimi",
+            "title": "Talep atanmadan önce ne olur.",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "unit-1",
+                "type": "card",
+                "title": "İlk mesaj kalite kontrolü",
+                "subtitle": "Mesaj · Bağlam · İletişim",
+                "body": "Talebi atamadan önce ilk mesajın faydalı bir yanıt için yeterli iş bağlamı taşıyıp taşımadığını kontrol ederiz.\n---\nKarar sahibini belirleme\nÜlke ve tercih edilen dili doğrulama\nZamanlama ve aciliyeti alma\nHizmet taleplerini tanıtımlardan ayırma",
+                "order": 0
+              },
+              {
+                "block_key": "unit-2",
+                "type": "card",
+                "title": "Eksik bilgi incelemesi",
+                "subtitle": "Detay · Kanıt · Risk",
+                "body": "Holding ekibi uzman ekibi yavaşlatacak eksik bilgileri kontrol eder ve daha temiz bir devir yolu hazırlar.\n---\nEksik belge veya rakamları listeleme\nBirden fazla birim gerekip gerekmediğini kontrol etme\nBelirsiz ticari varsayımları işaretleme\nİlk faydalı takip sorusunu belirleme",
+                "order": 1
+              },
+              {
+                "block_key": "unit-3",
+                "type": "card",
+                "title": "Sorumluluk devri",
+                "subtitle": "Sahip · Sonraki Adım · Takip",
+                "body": "Talep anlaşılır hale geldiğinde net bir sahip, pratik sonraki adım ve konuşmayı yeniden başlatmayacak kadar arka plan ile atanır.\n---\nSorumlu ekibi seçme\nTalep özetini paylaşma\nİlk yanıt yönünü belirleme\nGerektiğinde grup görünürlüğünü koruma",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "flow",
+            "type": "process",
+            "subtitle": "Çalışma Akışı",
+            "title": "Bir mesajı nasıl net bir sonraki adıma taşırız.",
+            "order": 2,
+            "blocks": [
+              {
+                "block_key": "flow-1",
+                "type": "process_step",
+                "title": "Talebi alırız",
+                "body": "Mesaj, hizmet alanı, ülke, zamanlama ve tercih edilen takip dilinden başlarız.",
+                "order": 0
+              },
+              {
+                "block_key": "flow-2",
+                "type": "process_step",
+                "title": "Bağlamı netleştiririz",
+                "body": "Eksik bilgileri ve talebin basit, uzmanlık gerektiren ya da çok birimli olup olmadığını kontrol ederiz.",
+                "order": 1
+              },
+              {
+                "block_key": "flow-3",
+                "type": "process_step",
+                "title": "Sahibi seçeriz",
+                "body": "Talep, hizmet kategorisinin sahibi olan ve pratik adımlarla yanıt verebilecek platforma atanır.",
+                "order": 2
+              },
+              {
+                "block_key": "flow-4",
+                "type": "process_step",
+                "title": "Uzmanlarla devam ederiz",
+                "body": "Uzman ekip belge listesi, ticari bağlam, teklif yolu veya koordinasyon akışıyla devreye girer.",
+                "order": 3
+              },
+              {
+                "block_key": "flow-5",
+                "type": "process_step",
+                "title": "Takibi net tutarız",
+                "body": "Konuşma tek bir sorumlu yolda ilerler; birden fazla birim gerektiğinde holding koordinasyonu korur.",
+                "order": 4
+              }
+            ]
+          },
+          {
+            "section_key": "holding",
+            "type": "cards",
+            "subtitle": "Çalışma Standartları",
+            "title": "İşi net tutan şeyler.",
+            "order": 3,
+            "blocks": [
+              {
+                "block_key": "holding-1",
+                "type": "card",
+                "title": "Net İlk Değerlendirme",
+                "body": "Her talep hedef, pazar, belgeler, zamanlama ve iletişim yolu anlaşılacak kadar bağlamla başlar.",
+                "order": 0
+              },
+              {
+                "block_key": "holding-2",
+                "type": "card",
+                "title": "Sorumlu Yönlendirme",
+                "body": "Holding ekibi belirsiz aktarımlar yerine her talebi hizmet kategorisinin sahibi olan ekibe atar.",
+                "order": 1
+              },
+              {
+                "block_key": "holding-3",
+                "type": "card",
+                "title": "Uzman Takibi",
+                "body": "Yönlendirmeden sonra ilgili platform hizmete özel sorular, kanıtlar, teklif detayları veya belge adımlarıyla devam eder.",
+                "order": 2
+              },
+              {
+                "block_key": "holding-4",
+                "type": "card",
+                "title": "Çok Birimli Koordinasyon",
+                "body": "Talep birden fazla platforma dokunduğunda holding sorumluluğu bölmeden konuşmayı düzenli tutar.",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "section_key": "cta",
+            "type": "cta",
+            "subtitle": "Bağlamla Başlayın",
+            "title": "Talebinizi doğru yönlendirebilmemiz için yeterli detayla gönderin.",
+            "summary": "Hizmet alanını, ülkeyi, zamanlamayı, belgeleri veya miktarları ve en iyi takip yolunu ekleyin.",
+            "order": 4,
+            "blocks": [
+              {
+                "block_key": "cta-button",
+                "type": "button",
+                "title": "Talebinizi Gönderin",
+                "href": "/contact",
+                "order": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/how-we-work",
+        "title": "نحوه کار ما",
+        "locale": "fa",
+        "page_type": "detail",
+        "status": "published",
+        "seo": {
+          "title": "نحوه کار ما | REZAEI GLOBAL LLC",
+          "description": "نحوه بررسی، دسته‌بندی، مسیریابی و پیگیری درخواست‌ها در REZAEI GLOBAL LLC.",
+          "keywords": "how we work, request routing, REZAEI GLOBAL LLC, group process",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "hero",
+            "type": "hero",
+            "subtitle": "نحوه کار ما",
+            "title": "مسیر روشن از اولین پیام تا پیگیری تخصصی",
+            "summary": "REZAEI GLOBAL LLC ابتدا هر درخواست را بررسی می‌کند، زمینه تجاری درست را تشخیص می‌دهد و سپس گفتگو را به تیمی هدایت می‌کند که بتواند با مدارک، زمان‌بندی و پیگیری مناسب پاسخ دهد.",
+            "order": 0,
+            "blocks": []
+          },
+          {
+            "section_key": "units",
+            "type": "cards",
+            "subtitle": "مدیریت درخواست",
+            "title": "قبل از سپردن درخواست چه اتفاقی می‌افتد.",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "unit-1",
+                "type": "card",
+                "title": "بررسی کیفیت پیام اولیه",
+                "subtitle": "پیام · زمینه · تماس",
+                "body": "پیش از سپردن درخواست، بررسی می‌کنیم پیام اولیه زمینه تجاری کافی برای پاسخ مفید داشته باشد، نه یک جواب کلی.\n---\nتشخیص مسئول تصمیم‌گیر\nتایید کشور و زبان ترجیحی\nثبت زمان‌بندی و فوریت\nتفکیک درخواست خدمات از معرفی همکاری",
+                "order": 0
+              },
+              {
+                "block_key": "unit-2",
+                "type": "card",
+                "title": "بررسی کمبود اطلاعات",
+                "subtitle": "جزئیات · مدارک · ریسک",
+                "body": "تیم هلدینگ موارد ناقصی را که می‌تواند تیم تخصصی را کند کند بررسی می‌کند و مسیر تحویل روشن‌تری آماده می‌سازد.\n---\nفهرست مدارک یا اعداد ناقص\nبررسی دخالت بیش از یک واحد\nعلامت‌گذاری فرضیات تجاری مبهم\nتعیین اولین سؤال پیگیری مفید",
+                "order": 1
+              },
+              {
+                "block_key": "unit-3",
+                "type": "card",
+                "title": "تحویل مسئولیت",
+                "subtitle": "مالک · گام بعد · پیگیری",
+                "body": "وقتی درخواست قابل فهم شد، با مالک مشخص، گام عملی بعدی و زمینه کافی برای جلوگیری از شروع دوباره گفتگو سپرده می‌شود.\n---\nانتخاب تیم مسئول\nاشتراک خلاصه درخواست\nتعیین جهت پاسخ اول\nحفظ دید گروهی در صورت نیاز",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "flow",
+            "type": "process",
+            "subtitle": "جریان کار",
+            "title": "چگونه یک پیام را به گام بعدی روشن تبدیل می‌کنیم.",
+            "order": 2,
+            "blocks": [
+              {
+                "block_key": "flow-1",
+                "type": "process_step",
+                "title": "دریافت درخواست",
+                "body": "با پیام، حوزه خدمات، کشور، زمان‌بندی و زبان پیگیری ترجیحی شروع می‌کنیم.",
+                "order": 0
+              },
+              {
+                "block_key": "flow-2",
+                "type": "process_step",
+                "title": "روشن‌سازی زمینه",
+                "body": "اطلاعات ناقص و ساده یا تخصصی بودن درخواست را بررسی می‌کنیم.",
+                "order": 1
+              },
+              {
+                "block_key": "flow-3",
+                "type": "process_step",
+                "title": "انتخاب مالک",
+                "body": "درخواست به پلتفرمی سپرده می‌شود که مالک آن دسته خدمات است.",
+                "order": 2
+              },
+              {
+                "block_key": "flow-4",
+                "type": "process_step",
+                "title": "ادامه با متخصصان",
+                "body": "تیم تخصصی با فهرست مدارک، زمینه تجاری یا مسیر پیشنهاد قیمت ادامه می‌دهد.",
+                "order": 3
+              },
+              {
+                "block_key": "flow-5",
+                "type": "process_step",
+                "title": "پیگیری روشن",
+                "body": "گفتگو در یک مسیر مسئول ادامه می‌یابد و هلدینگ در موارد چندواحدی هماهنگ می‌ماند.",
+                "order": 4
+              }
+            ]
+          },
+          {
+            "section_key": "holding",
+            "type": "cards",
+            "subtitle": "استانداردهای عملیاتی",
+            "title": "آنچه کار را روشن نگه می‌دارد.",
+            "order": 3,
+            "blocks": [
+              {
+                "block_key": "holding-1",
+                "type": "card",
+                "title": "دریافت روشن",
+                "body": "هر درخواست با زمینه کافی درباره هدف، بازار، مدارک و زمان‌بندی آغاز می‌شود.",
+                "order": 0
+              },
+              {
+                "block_key": "holding-2",
+                "type": "card",
+                "title": "مسیریابی مسئول",
+                "body": "تیم هلدینگ به جای ارجاع مبهم، هر درخواست را به تیم مالک دسته خدمات می‌سپارد.",
+                "order": 1
+              },
+              {
+                "block_key": "holding-3",
+                "type": "card",
+                "title": "پیگیری تخصصی",
+                "body": "پس از مسیریابی، پلتفرم مربوط با سؤالات تخصصی و مدارک ادامه می‌دهد.",
+                "order": 2
+              },
+              {
+                "block_key": "holding-4",
+                "type": "card",
+                "title": "هماهنگی چندواحدی",
+                "body": "وقتی درخواست بیش از یک پلتفرم را دربرمی‌گیرد، هلدینگ گفتگو را منظم نگه می‌دارد.",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "section_key": "cta",
+            "type": "cta",
+            "subtitle": "با زمینه شروع کنید",
+            "title": "درخواست را با جزئیات کافی بفرستید تا درست هدایت شود.",
+            "summary": "حوزه خدمات، کشور، زمان‌بندی، مدارک یا مقدارها و بهترین روش پیگیری را در پیام اول بنویسید.",
+            "order": 4,
+            "blocks": [
+              {
+                "block_key": "cta-button",
+                "type": "button",
+                "title": "ارسال درخواست",
+                "href": "/contact",
+                "order": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/how-we-work",
+        "title": "كيف نعمل",
+        "locale": "ar",
+        "page_type": "detail",
+        "status": "published",
+        "seo": {
+          "title": "كيف نعمل | REZAEI GLOBAL LLC",
+          "description": "كيف تراجع REZAEI GLOBAL LLC الطلبات وتصنفها وتوجهها وتتابعها عبر المجموعة.",
+          "keywords": "how we work, request routing, REZAEI GLOBAL LLC, group process",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "hero",
+            "type": "hero",
+            "subtitle": "كيف نعمل",
+            "title": "مسار واضح من أول رسالة إلى متابعة متخصصة",
+            "summary": "تراجع REZAEI GLOBAL LLC كل طلب أولاً، وتحدد السياق التجاري الصحيح، ثم توجه المحادثة إلى الفريق القادر على التعامل معها بالوثائق والتوقيت والمتابعة المناسبة.",
+            "order": 0,
+            "blocks": []
+          },
+          {
+            "section_key": "units",
+            "type": "cards",
+            "subtitle": "إدارة الطلب",
+            "title": "ما الذي يحدث قبل إسناد الطلب.",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "unit-1",
+                "type": "card",
+                "title": "فحص جودة الرسالة الأولى",
+                "subtitle": "الرسالة · السياق · التواصل",
+                "body": "قبل إسناد الطلب، نتحقق من أن الرسالة الأولى تحمل سياقاً عملياً كافياً لرد مفيد بدلاً من رد عام.\n---\nتحديد صاحب القرار\nتأكيد الدولة واللغة المفضلة\nتسجيل التوقيت والاستعجال\nفصل طلبات الخدمة عن التعارف التجاري",
+                "order": 0
+              },
+              {
+                "block_key": "unit-2",
+                "type": "card",
+                "title": "مراجعة نقص المعلومات",
+                "subtitle": "التفاصيل · الأدلة · المخاطر",
+                "body": "يراجع فريق القابضة التفاصيل الناقصة التي قد تبطئ الفريق المتخصص، ثم يجهز مسار تسليم أوضح.\n---\nحصر الوثائق أو الأرقام الناقصة\nفحص ما إذا كان أكثر من فريق معني\nتمييز الافتراضات التجارية غير الواضحة\nتحديد أول سؤال متابعة مفيد",
+                "order": 1
+              },
+              {
+                "block_key": "unit-3",
+                "type": "card",
+                "title": "تسليم المسؤولية",
+                "subtitle": "المالك · الخطوة التالية · المتابعة",
+                "body": "عندما يصبح الطلب واضحاً، يُسند إلى مالك محدد مع خطوة عملية تالية وخلفية كافية حتى لا تبدأ المحادثة من جديد.\n---\nاختيار الفريق المسؤول\nمشاركة ملخص الطلب\nتحديد اتجاه الرد الأول\nالحفاظ على رؤية المجموعة عند الحاجة",
+                "order": 2
+              }
+            ]
+          },
+          {
+            "section_key": "flow",
+            "type": "process",
+            "subtitle": "سير العمل",
+            "title": "كيف نحول الرسالة إلى خطوة تالية واضحة.",
+            "order": 2,
+            "blocks": [
+              {
+                "block_key": "flow-1",
+                "type": "process_step",
+                "title": "استلام الطلب",
+                "body": "نبدأ برسالة الزائر ومجال الخدمة والدولة والتوقيت ولغة المتابعة المفضلة.",
+                "order": 0
+              },
+              {
+                "block_key": "flow-2",
+                "type": "process_step",
+                "title": "توضيح السياق",
+                "body": "نراجع المعلومات الناقصة وما إذا كان الطلب بسيطاً أو متخصصاً أو متعدد الوحدات.",
+                "order": 1
+              },
+              {
+                "block_key": "flow-3",
+                "type": "process_step",
+                "title": "اختيار المالك",
+                "body": "يُسند الطلب إلى المنصة المالكة لفئة الخدمة والقادرة على تقديم خطوات عملية.",
+                "order": 2
+              },
+              {
+                "block_key": "flow-4",
+                "type": "process_step",
+                "title": "المتابعة مع المتخصصين",
+                "body": "يتولى الفريق المتخصص قائمة الوثائق أو السياق التجاري أو مسار عرض السعر أو التنسيق.",
+                "order": 3
+              },
+              {
+                "block_key": "flow-5",
+                "type": "process_step",
+                "title": "إبقاء المتابعة واضحة",
+                "body": "تستمر المحادثة في مسار مسؤول واحد، مع بقاء القابضة للتنسيق عند تعدد الوحدات.",
+                "order": 4
+              }
+            ]
+          },
+          {
+            "section_key": "holding",
+            "type": "cards",
+            "subtitle": "معايير العمل",
+            "title": "ما يحافظ على وضوح العمل.",
+            "order": 3,
+            "blocks": [
+              {
+                "block_key": "holding-1",
+                "type": "card",
+                "title": "استقبال واضح",
+                "body": "يبدأ كل طلب بسياق كافٍ حول الهدف والسوق والوثائق والتوقيت ومسار التواصل.",
+                "order": 0
+              },
+              {
+                "block_key": "holding-2",
+                "type": "card",
+                "title": "توجيه مسؤول",
+                "body": "يتجنب فريق القابضة الإحالات الغامضة ويسند كل طلب إلى الفريق المالك لفئة الخدمة.",
+                "order": 1
+              },
+              {
+                "block_key": "holding-3",
+                "type": "card",
+                "title": "متابعة متخصصة",
+                "body": "بعد التوجيه، تتابع المنصة المعنية بأسئلة الخدمة والأدلة وتفاصيل السعر أو خطوات الوثائق.",
+                "order": 2
+              },
+              {
+                "block_key": "holding-4",
+                "type": "card",
+                "title": "تنسيق متعدد الوحدات",
+                "body": "عندما يلمس طلب واحد أكثر من منصة، تحافظ القابضة على تنظيم المحادثة.",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "section_key": "cta",
+            "type": "cta",
+            "subtitle": "ابدأ بالسياق",
+            "title": "أرسل الطلب بتفاصيل كافية حتى نوجهه بشكل صحيح.",
+            "summary": "اذكر مجال الخدمة والدولة والتوقيت والوثائق أو الكميات وأفضل طريقة للمتابعة في الرسالة الأولى.",
+            "order": 4,
+            "blocks": [
+              {
+                "block_key": "cta-button",
+                "type": "button",
+                "title": "أرسل طلبك",
+                "href": "/contact",
+                "order": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/team",
+        "title": "Team",
+        "locale": "en",
+        "page_type": "detail",
+        "status": "published",
+        "seo": {
+          "title": "Team | REZAEI GLOBAL LLC",
+          "description": "Meet the leadership group behind REZAEI GLOBAL LLC.",
+          "keywords": "team, leadership, REZAEI GLOBAL LLC, corporate team",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "hero",
+            "type": "hero",
+            "subtitle": "Team",
+            "title": "Meet the leadership group behind REZAEI GLOBAL LLC.",
+            "summary": "REZAEI GLOBAL LLC is led by a compact leadership group that keeps group-level communication clear and connects clients to the right specialist desk.",
+            "order": 0,
+            "blocks": []
+          },
+          {
+            "section_key": "roster",
+            "type": "cards",
+            "subtitle": "Leadership Team",
+            "title": "A compact team that keeps group communication clear and specialist delivery focused.",
+            "summary": "REZAEI GLOBAL LLC is led by a compact leadership group that keeps group-level communication clear and connects clients to the right specialist desk.",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "member-1",
+                "type": "card",
+                "title": "Hosein Rezaei",
+                "subtitle": "Group Managing Director",
+                "body": "Sets group direction, oversees corporate conversations, and keeps every request moving toward the right business unit.",
+                "image_url": "/media/team/hosein-rezaei.svg",
+                "order": 0
+              },
+              {
+                "block_key": "member-2",
+                "type": "card",
+                "title": "Ali Rezaei",
+                "subtitle": "Operations Director",
+                "body": "Reviews intake quality, clarifies missing information, and ensures specialist teams receive usable context.",
+                "image_url": "/media/team/ali-rezaei.svg",
+                "order": 1
+              },
+              {
+                "block_key": "member-3",
+                "type": "card",
+                "title": "Mohammad Rezaei",
+                "subtitle": "Real Estate Desk Lead",
+                "body": "Leads property, construction, materials, and quotation conversations across the real estate platform.",
+                "image_url": "/media/team/mohammad-rezaei.svg",
+                "order": 2
+              },
+              {
+                "block_key": "member-4",
+                "type": "card",
+                "title": "Reza Rezaei",
+                "subtitle": "Trade & Finance Desk Lead",
+                "body": "Handles trade, shipment, currency transfer, and commercial finance requests through the finance platform.",
+                "image_url": "/media/team/reza-rezaei.svg",
+                "order": 3
+              }
+            ],
+            "body": "REZAEI GLOBAL LLC keeps group-level communication clear so every request reaches the specialist desk that can respond with context."
+          },
+          {
+            "section_key": "cta",
+            "type": "cta",
+            "subtitle": "Contact",
+            "title": "Speak with the right part of the group.",
+            "summary": "Send a group-level message and we will route it to the leadership or specialist desk that can respond with context.",
+            "order": 2,
+            "blocks": [
+              {
+                "block_key": "cta-contact",
+                "type": "button",
+                "title": "Contact the group",
+                "href": "/contact",
+                "order": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/team",
+        "title": "Ekip",
+        "locale": "tr",
+        "page_type": "detail",
+        "status": "published",
+        "seo": {
+          "title": "Ekip | REZAEI GLOBAL LLC",
+          "description": "REZAEI GLOBAL LLC'nin arkasındaki liderlik grubuyla tanışın.",
+          "keywords": "team, leadership, REZAEI GLOBAL LLC, corporate team",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "hero",
+            "type": "hero",
+            "subtitle": "Ekip",
+            "title": "REZAEI GLOBAL LLC'nin arkasındaki liderlik grubuyla tanışın.",
+            "summary": "REZAEI GLOBAL LLC, grup düzeyinde iletişimi net tutan ve müşterileri doğru uzman masaya bağlayan kompakt bir liderlik ekibiyle yönetilir.",
+            "order": 0,
+            "blocks": []
+          },
+          {
+            "section_key": "roster",
+            "type": "cards",
+            "subtitle": "Liderlik Ekibi",
+            "title": "Grup iletisimini net ve uzman teslimatini odakli tutan kompakt bir ekip.",
+            "summary": "REZAEI GLOBAL LLC, grup duzeyinde iletisimi net tutan ve musterileri dogru uzman masaya baglayan kompakt bir liderlik ekibiyle yonetilir.",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "member-1",
+                "type": "card",
+                "title": "Hosein Rezaei",
+                "subtitle": "Grup Genel Müdürü",
+                "body": "Grup yönünü belirler, kurumsal görüşmeleri yönetir ve her talebi doğru iş birimine yönlendirir.",
+                "image_url": "/media/team/hosein-rezaei.svg",
+                "order": 0
+              },
+              {
+                "block_key": "member-2",
+                "type": "card",
+                "title": "Ali Rezaei",
+                "subtitle": "Operasyon Direktörü",
+                "body": "Talep kalitesini gözden geçirir, eksik bilgileri netleştirir ve uzman ekiplere kullanılabilir bir bağlamla aktarır.",
+                "image_url": "/media/team/ali-rezaei.svg",
+                "order": 1
+              },
+              {
+                "block_key": "member-3",
+                "type": "card",
+                "title": "Mohammad Rezaei",
+                "subtitle": "Emlak Masası Lideri",
+                "body": "Emlak ekibinde mülk, inşaat, malzeme ve fiyat teklifi görüşmelerini yürütür.",
+                "image_url": "/media/team/mohammad-rezaei.svg",
+                "order": 2
+              },
+              {
+                "block_key": "member-4",
+                "type": "card",
+                "title": "Reza Rezaei",
+                "subtitle": "Ticaret ve Finans Masası Lideri",
+                "body": "Finans ekibi üzerinden ticaret, sevkiyat, para transferi ve ticari finans taleplerini takip eder.",
+                "image_url": "/media/team/reza-rezaei.svg",
+                "order": 3
+              }
+            ],
+            "body": "REZAEI GLOBAL LLC keeps group-level communication clear so every request reaches the specialist desk that can respond with context."
+          },
+          {
+            "section_key": "cta",
+            "type": "cta",
+            "subtitle": "Iletisim",
+            "title": "Grubun doğru bölümüyle konuşun.",
+            "summary": "Grup seviyesinde bir mesaj gonderin; baglama gore uygun liderlik veya uzman masaya yonlendirelim.",
+            "order": 2,
+            "blocks": [
+              {
+                "block_key": "cta-contact",
+                "type": "button",
+                "title": "Grupla iletisime gecin",
+                "href": "/contact",
+                "order": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/team",
+        "title": "تیم",
+        "locale": "fa",
+        "page_type": "detail",
+        "status": "published",
+        "seo": {
+          "title": "تیم | REZAEI GLOBAL LLC",
+          "description": "با گروه رهبری پشت REZAEI GLOBAL LLC آشنا شوید.",
+          "keywords": "team, leadership, REZAEI GLOBAL LLC, corporate team",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "hero",
+            "type": "hero",
+            "subtitle": "تیم",
+            "title": "با گروه رهبری پشت REZAEI GLOBAL LLC آشنا شوید.",
+            "summary": "REZAEI GLOBAL LLC توسط گروه رهبری فشرده‌ای اداره می‌شود که ارتباطات سطح گروه را روشن نگه می‌دارد و مشتریان را به میز تخصصی درست متصل می‌کند.",
+            "order": 0,
+            "blocks": []
+          },
+          {
+            "section_key": "roster",
+            "type": "cards",
+            "subtitle": "تیم رهبری",
+            "title": "تیمی فشرده که ارتباطات گروه را روشن و تحویل تخصصی را متمرکز نگه می‌دارد.",
+            "summary": "REZAEI GLOBAL LLC توسط گروه رهبری فشرده‌ای اداره می‌شود که ارتباطات سطح گروه را روشن نگه می‌دارد و مشتریان را به میز تخصصی درست متصل می‌کند.",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "member-1",
+                "type": "card",
+                "title": "Hosein Rezaei",
+                "subtitle": "مدیرعامل گروه",
+                "body": "جهت‌گیری گروه را تعیین می‌کند، گفت‌وگوهای شرکتی را هدایت می‌کند و هر درخواست را به واحد تجاری درست هدایت می‌کند.",
+                "image_url": "/media/team/hosein-rezaei.svg",
+                "order": 0
+              },
+              {
+                "block_key": "member-2",
+                "type": "card",
+                "title": "Ali Rezaei",
+                "subtitle": "مدیر عملیات",
+                "body": "کیفیت دریافت را بررسی می‌کند، اطلاعات ناقص را روشن می‌کند و زمینه قابل استفاده را به تیم‌های تخصصی می‌رساند.",
+                "image_url": "/media/team/ali-rezaei.svg",
+                "order": 1
+              },
+              {
+                "block_key": "member-3",
+                "type": "card",
+                "title": "Mohammad Rezaei",
+                "subtitle": "رئیس میز املاک",
+                "body": "گفت‌وگوهای املاک، ساخت‌وساز، مصالح و استعلام قیمت را در بستر املاک هدایت می‌کند.",
+                "image_url": "/media/team/mohammad-rezaei.svg",
+                "order": 2
+              },
+              {
+                "block_key": "member-4",
+                "type": "card",
+                "title": "Reza Rezaei",
+                "subtitle": "رئیس میز تجارت و مالی",
+                "body": "درخواست‌های تجارت، حمل، انتقال ارز و امور مالی تجاری را از طریق بستر مالی مدیریت می‌کند.",
+                "image_url": "/media/team/reza-rezaei.svg",
+                "order": 3
+              }
+            ],
+            "body": "REZAEI GLOBAL LLC keeps group-level communication clear so every request reaches the specialist desk that can respond with context."
+          },
+          {
+            "section_key": "cta",
+            "type": "cta",
+            "subtitle": "تماس",
+            "title": "با بخش مناسب گروه صحبت کنید.",
+            "summary": "یک پیام در سطح گروه ارسال کنید تا آن را به رهبری یا میز تخصصی مناسب هدایت کنیم.",
+            "order": 2,
+            "blocks": [
+              {
+                "block_key": "cta-contact",
+                "type": "button",
+                "title": "تماس با گروه",
+                "href": "/contact",
+                "order": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "/team",
+        "title": "الفريق",
+        "locale": "ar",
+        "page_type": "detail",
+        "status": "published",
+        "seo": {
+          "title": "الفريق | REZAEI GLOBAL LLC",
+          "description": "تعرّف على فريق القيادة وراء REZAEI GLOBAL LLC.",
+          "keywords": "team, leadership, REZAEI GLOBAL LLC, corporate team",
+          "og_image_url": "/brand/rezaei-global-logo-wide-web.png"
+        },
+        "sections": [
+          {
+            "section_key": "hero",
+            "type": "hero",
+            "subtitle": "الفريق",
+            "title": "تعرّف على فريق القيادة وراء REZAEI GLOBAL LLC.",
+            "summary": "تُدار REZAEI GLOBAL LLC من خلال فريق قيادة مدمج يحافظ على وضوح التواصل على مستوى المجموعة ويربط العملاء بمكتب التخصص المناسب.",
+            "order": 0,
+            "blocks": []
+          },
+          {
+            "section_key": "roster",
+            "type": "cards",
+            "subtitle": "فريق القيادة",
+            "title": "فريق مدمج يحافظ على وضوح تواصل المجموعة وتركيز التسليم المتخصص.",
+            "summary": "تُدار REZAEI GLOBAL LLC من خلال فريق قيادة مدمج يحافظ على وضوح التواصل على مستوى المجموعة ويربط العملاء بمكتب التخصص المناسب.",
+            "order": 1,
+            "blocks": [
+              {
+                "block_key": "member-1",
+                "type": "card",
+                "title": "Hosein Rezaei",
+                "subtitle": "المدير العام للمجموعة",
+                "body": "يحدد اتجاه المجموعة ويشرف على المحادثات المؤسسية ويوجه كل طلب إلى وحدة الأعمال المناسبة.",
+                "image_url": "/media/team/hosein-rezaei.svg",
+                "order": 0
+              },
+              {
+                "block_key": "member-2",
+                "type": "card",
+                "title": "Ali Rezaei",
+                "subtitle": "مدير العمليات",
+                "body": "يراجع جودة الاستقبال ويوضح المعلومات الناقصة ويضمن وصول سياق قابل للاستخدام إلى الفرق المتخصصة.",
+                "image_url": "/media/team/ali-rezaei.svg",
+                "order": 1
+              },
+              {
+                "block_key": "member-3",
+                "type": "card",
+                "title": "Mohammad Rezaei",
+                "subtitle": "قائد مكتب العقارات",
+                "body": "يقود محادثات العقارات والبناء والمواد وعروض الأسعار عبر منصة العقارات.",
+                "image_url": "/media/team/mohammad-rezaei.svg",
+                "order": 2
+              },
+              {
+                "block_key": "member-4",
+                "type": "card",
+                "title": "Reza Rezaei",
+                "subtitle": "قائد مكتب التجارة والتمويل",
+                "body": "يتولى طلبات التجارة والشحن وتحويل العملات والتمويل التجاري عبر منصة التمويل.",
+                "image_url": "/media/team/reza-rezaei.svg",
+                "order": 3
+              }
+            ],
+            "body": "REZAEI GLOBAL LLC keeps group-level communication clear so every request reaches the specialist desk that can respond with context."
+          },
+          {
+            "section_key": "cta",
+            "type": "cta",
+            "subtitle": "تواصل",
+            "title": "تحدث مع الجزء المناسب من المجموعة.",
+            "summary": "أرسل رسالة على مستوى المجموعة وسنوجهها إلى القيادة أو المكتب المتخصص المناسب.",
+            "order": 2,
+            "blocks": [
+              {
+                "block_key": "cta-contact",
+                "type": "button",
+                "title": "تواصل مع المجموعة",
+                "href": "/contact",
+                "order": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
